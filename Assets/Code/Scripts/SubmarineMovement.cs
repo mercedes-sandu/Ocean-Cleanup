@@ -40,11 +40,29 @@ namespace Code.Scripts
         private Rigidbody _rb;
 
         /// <summary>
+        /// The player's animator component.
+        /// </summary>
+        private Animator _anim;
+
+        /// <summary>
+        /// The cached "Speed" property of the animator. If greater than 0.1, the flippers start rotating.
+        /// </summary>
+        private static readonly int Speed = Animator.StringToHash("Speed");
+
+        /// <summary>
+        /// The cached "AnimSpeed" property of the animator. Controls the speed of the flippers' rotation.
+        /// </summary>
+        private static readonly int AnimSpeed = Animator.StringToHash("AnimSpeed");
+
+        /// <summary>
         /// Initializes components.
         /// </summary>
         void Start()
         {
             _rb = GetComponent<Rigidbody>();
+            _anim = GetComponent<Animator>();
+            _anim.SetFloat(Speed, 0.0f);
+            _anim.SetFloat(AnimSpeed, 0.0f);
         }
 
         /// <summary>
@@ -60,7 +78,9 @@ namespace Code.Scripts
                 _curSpeed = 0;
 
             _curSpeed = Mathf.Clamp(_curSpeed, -maxBackSpeed, maxForwardSpeed);
-            
+            _anim.SetFloat(Speed, _curSpeed);
+            _anim.SetFloat(AnimSpeed, _curSpeed / maxForwardSpeed);
+
             _rb.AddForce(transform.forward * _curSpeed);
 
             if (Input.GetKey(KeyCode.D))
