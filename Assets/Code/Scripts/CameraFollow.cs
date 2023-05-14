@@ -35,7 +35,8 @@ namespace Code.Scripts
         private float _pitch = 0.0f;
 
         /// <summary>
-        /// Initializes the camera's yaw and pitch. Also disables the cursor.
+        /// Initializes the camera's yaw and pitch. Also disables the cursor. Finds the player target if it has not 
+        /// been initialized.
         /// </summary>
         void Start()
         {
@@ -45,6 +46,8 @@ namespace Code.Scripts
             
             Cursor.lockState = CursorLockMode.Locked; 
             Cursor.visible = false;
+
+            if (!target) target = GameObject.FindWithTag("Player").transform;
         }
 
         /// <summary>
