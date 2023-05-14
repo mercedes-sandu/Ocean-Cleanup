@@ -4,31 +4,58 @@ namespace Code.Scripts
 {
     public class SubmarineMovement : MonoBehaviour
     {
-        [SerializeField] private float speedChangeAmount;
-        [SerializeField] private float riseSpeed;
+        /// <summary>
+        /// The player's speed. 
+        /// </summary>
+        [SerializeField] private float speed;
+        
+        /// <summary>
+        /// The player's turn speed.
+        /// </summary>
         [SerializeField] private float turnSpeed;
-
+        
+        /// <summary>
+        /// The maximum speed the player can achieve while moving forward.
+        /// </summary>
         [SerializeField] private float maxForwardSpeed;
+        
+        /// <summary>
+        /// The maximum speed the player can achieve while moving backward.
+        /// </summary>
         [SerializeField] private float maxBackSpeed;
-
+        
+        /// <summary>
+        /// The player's minimum speed.
+        /// </summary>
         [SerializeField] private float minSpeed;
-        //current speed
+        
+        /// <summary>
+        /// The player's current speed.
+        /// </summary>
         private float _curSpeed;
+        
+        /// <summary>
+        /// The player's rigidbody component.
+        /// </summary>
         private Rigidbody _rb;
-        // Start is called before the first frame update
+
+        /// <summary>
+        /// Initializes components.
+        /// </summary>
         void Start()
         {
             _rb = GetComponent<Rigidbody>();
         }
 
-        // Update is called once per frame
+        /// <summary>
+        /// Moves the player accordingly.
+        /// </summary>
         void FixedUpdate()
         {
-            // this movement is a bit (a lot) broken idk why
             if (Input.GetKey(KeyCode.W))
-                _curSpeed += speedChangeAmount;
+                _curSpeed += speed;
             else if (Input.GetKey(KeyCode.S))
-                _curSpeed -= speedChangeAmount;
+                _curSpeed -= speed;
             else if (Mathf.Abs(_curSpeed) <= minSpeed)
                 _curSpeed = 0;
 
