@@ -15,6 +15,11 @@ namespace Code.Scripts
         [SerializeField] private float turnSpeed;
         
         /// <summary>
+        /// The speed at which the sub returns back to a normal rotation.
+        /// </summary>
+        [SerializeField] private float stabilizationSmoothing;
+        
+        /// <summary>
         /// The maximum speed the player can achieve while moving forward.
         /// </summary>
         [SerializeField] private float maxForwardSpeed;
@@ -92,6 +97,10 @@ namespace Code.Scripts
                 _rb.AddTorque(transform.right * turnSpeed);
             else if (Input.GetKey(KeyCode.LeftControl))
                 _rb.AddTorque(transform.right * -turnSpeed);
+            
+            // slowly stabilize rotation
+            var rotation = _rb.rotation;
+            // _rb.MoveRotation(Quaternion.Slerp(rotation, Quaternion.Euler(new Vector3(0, 0, rotation.eulerAngles.z)), stabilizationSmoothing));
         }
     }
 }

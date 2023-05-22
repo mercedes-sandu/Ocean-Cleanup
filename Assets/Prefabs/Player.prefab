@@ -238,7 +238,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 64
   m_CollisionDetection: 2
 --- !u!114 &4577514004908230303
 MonoBehaviour:
@@ -252,8 +252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b324d0a444c4544daa49980118dce04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.4
-  turnSpeed: 1
+  speed: 1
+  turnSpeed: 2
+  stabilizationSmoothing: 0.05
   maxForwardSpeed: 20
   maxBackSpeed: 15
   minSpeed: 0.5
