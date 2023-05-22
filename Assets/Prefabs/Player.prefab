@@ -252,8 +252,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b324d0a444c4544daa49980118dce04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
-  turnSpeed: 2
+  speed: 2.5
+  turnSpeed: 4.5
   stabilizationSmoothing: 0.05
   maxForwardSpeed: 20
   maxBackSpeed: 15
