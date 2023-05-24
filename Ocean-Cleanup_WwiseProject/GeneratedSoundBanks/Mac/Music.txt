@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2352987237	Play_New_Music_Playlist_Container			\Default Work Unit\Play_New_Music_Playlist_Container	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	70564428	Game Jam Music Loop	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Game Jam Music Loop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Intro + Loop\Loop\Game Jam Music Loop		10848096
+	966154064	Game Jam Music V2	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Game Jam Music V2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Intro + Loop\1st time\Game Jam Music V2		13632096
+
