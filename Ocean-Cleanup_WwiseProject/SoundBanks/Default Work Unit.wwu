@@ -10,13 +10,17 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{E79610A6-C283-49E0-90DF-7CC13822E18B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{28AAE82B-8A0D-4AB4-BBBD-B781C79757E3}" WorkUnitID="{28AAE82B-8A0D-4AB4-BBBD-B781C79757E3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{FC754776-9C29-401B-9CB7-569FC4436A73}" WorkUnitID="{28AAE82B-8A0D-4AB4-BBBD-B781C79757E3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music Intro + Loop" ID="{86DF959B-E162-43BD-AB28-1158683BBEC7}" WorkUnitID="{A270FEC3-EEE7-497E-A2EA-37FDB72B4B6A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="SFX" ID="{5433B7C4-1440-435B-82AE-3D8AEEAD7C9F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{4FE3029F-3220-4002-BB1B-C08C72528B26}" WorkUnitID="{28AAE82B-8A0D-4AB4-BBBD-B781C79757E3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX" ID="{F8A83FC0-2FEB-4890-A8FB-DB151552A66C}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

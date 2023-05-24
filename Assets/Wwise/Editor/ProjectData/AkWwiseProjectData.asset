@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 547e8bf134983a42b57e23017637af1a
     GuidInternal: 
-    m_lastTime: -8585166965685427571
+    m_lastTime: -8585166591977850315
     List:
     - name: Ambience
       guid: 93e1e4e9648b08419c1a9d0236d08ae8
@@ -122,11 +122,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585166959774492141
+    m_lastTime: -8585166589825969927
     List:
-    - name: Play_New_Music_Playlist_Container
-      guid: 312e5b09d724c74ca1cc965e225c4a4d
-      id: 2352987237
+    - name: Ambience
+      guid: ae3aadd5de918347b14a9c3cf18817bd
+      id: 85412153
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -134,10 +134,84 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 2be8aa280d8ab44abbbdb781c79757e3
-      - ElementName: Play_New_Music_Playlist_Container
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: ae3aadd5de918347b14a9c3cf18817bd
+      Path: Events\Default Work Unit\Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 764775fc299c1b409cb7569fc4436a73
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: Music
+        ObjectType: 4
+        guid: 764775fc299c1b409cb7569fc4436a73
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music_Intro___Loop
+      guid: 7f417ecae77dd246a6a7960d6cd9b021
+      id: 2894812387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: Music
+        ObjectType: 4
+        guid: 764775fc299c1b409cb7569fc4436a73
+      - ElementName: Play_Music_Intro___Loop
         ObjectType: 3
-        guid: 312e5b09d724c74ca1cc965e225c4a4d
-      Path: Events\Default Work Unit\Play_New_Music_Playlist_Container
+        guid: 7f417ecae77dd246a6a7960d6cd9b021
+      Path: Events\Default Work Unit\Music\Play_Music_Intro___Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Plastic_Utensils
+      guid: ee95be9f5aad9d40aa7536f5b90fa416
+      id: 1822877436
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Plastic_Utensils
+        ObjectType: 3
+        guid: ee95be9f5aad9d40aa7536f5b90fa416
+      Path: Events\Default Work Unit\SFX\Play_Plastic_Utensils
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SFX
+      guid: 9f02e34f20320240bb1bc08c72528b26
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      Path: Events\Default Work Unit\SFX
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -198,7 +272,7 @@ MonoBehaviour:
     m_lastTime: -8585167094310768894
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c000000
+  ExpandedWaapiItemIds: 02000000050000000600000007000000080000000a0000000b0000000c0000000f00000011000000130000001a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

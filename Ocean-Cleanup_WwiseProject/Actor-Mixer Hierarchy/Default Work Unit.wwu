@@ -1,6 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{43605362-6001-459F-9A2C-8C078E627F5D}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{43605362-6001-459F-9A2C-8C078E627F5D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{43605362-6001-459F-9A2C-8C078E627F5D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SFX" ID="{F8A83FC0-2FEB-4890-A8FB-DB151552A66C}" ShortID="387791091">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Bottle_07" ID="{389A7906-099D-4E71-AF41-581ED7154349}" ShortID="561783671">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle" ID="{D6E1D6D8-AE78-41CC-986C-B4CCC3C8C41A}" ShortID="180990678">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle_02" ID="{3A801FD9-089B-4E56-AE8D-E85EF93B3BB2}" ShortID="802278323">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle_06" ID="{408D0587-6BBA-44BF-A148-DC0FB2D7D2AF}" ShortID="822942204">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle_04" ID="{8E1854CB-4F23-4D06-AD40-ADC977AE03BA}" ShortID="353402407">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle_03" ID="{960F90D9-4BF2-4085-92D9-18CAC7455353}" ShortID="650662192">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bottle_05" ID="{DAA4D101-7BE2-43E9-9B19-59CA6AEB8DDD}" ShortID="546035206">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Plastic Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" ShortID="628228436">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plastic Utensils - stem-001" ID="{EFF48DC8-A96D-4738-ADC9-2C078503A2D2}" ShortID="322179285">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Utensils - stem-001" ID="{53D6AF38-D677-4116-AD21-4A652BA6AAFC}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Utensils - stem-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="638487778"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Utensils - stem-001" ID="{53D6AF38-D677-4116-AD21-4A652BA6AAFC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plastic Utensils - stem-002" ID="{03FC4D38-1CEC-42B0-A69F-63C9848BC4E0}" ShortID="1019429924">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Utensils - stem-002" ID="{F3D0519E-20B1-49D5-9675-BDE75F930371}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Utensils - stem-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="764575432"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Utensils - stem-002" ID="{F3D0519E-20B1-49D5-9675-BDE75F930371}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plastic Utensils - stem-003" ID="{CCA1F940-2463-4A22-A828-678B147E3C02}" ShortID="788482441">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Utensils - stem-003" ID="{1EDF9735-683C-41DF-9CFF-9E253EC9D51E}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Utensils - stem-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="23985577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Utensils - stem-003" ID="{1EDF9735-683C-41DF-9CFF-9E253EC9D51E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plastic Utensils - stem-004" ID="{3A383EBD-A517-416E-9716-94447B11EF10}" ShortID="144053186">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Utensils - stem-004" ID="{FF8B7137-1BCB-4B59-BED4-B47D101E768F}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Utensils - stem-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="931359013"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Utensils - stem-004" ID="{FF8B7137-1BCB-4B59-BED4-B47D101E768F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambiences" ID="{44D16C72-F630-4072-B877-66367E674620}" ShortID="754248937"/>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -3,17 +3,37 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{28AAE82B-8A0D-4AB4-BBBD-B781C79757E3}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_New_Music_Playlist_Container" ID="{095B2E31-24D7-4CC7-A1CC-965E225C4A4D}">
+				<Folder Name="Music" ID="{FC754776-9C29-401B-9CB7-569FC4436A73}" ShortID="44072173">
 					<ChildrenList>
-						<Action Name="" ID="{2CD9FD2F-18DB-439C-8D4A-36A4E5D6B92A}" ShortID="962682303">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music Intro + Loop" ID="{86DF959B-E162-43BD-AB28-1158683BBEC7}" WorkUnitID="{A270FEC3-EEE7-497E-A2EA-37FDB72B4B6A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Music_Intro___Loop" ID="{CA7E417F-7DE7-46D2-A6A7-960D6CD9B021}">
+							<ChildrenList>
+								<Action Name="" ID="{2A088CC0-154E-48B0-8951-DD2B737525B6}" ShortID="470876933">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Intro + Loop" ID="{86DF959B-E162-43BD-AB28-1158683BBEC7}" WorkUnitID="{A270FEC3-EEE7-497E-A2EA-37FDB72B4B6A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="SFX" ID="{4FE3029F-3220-4002-BB1B-C08C72528B26}" ShortID="38803821">
+					<ChildrenList>
+						<Event Name="Play_Plastic_Utensils" ID="{9FBE95EE-AD5A-409D-AA75-36F5B90FA416}">
+							<ChildrenList>
+								<Action Name="" ID="{7AD3A0A9-0606-4A9E-8EE9-E9558BFAC0F0}" ShortID="675717293">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plastic Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{D5AD3AAE-91DE-4783-B14A-9C3CF18817BD}" ShortID="331336752"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

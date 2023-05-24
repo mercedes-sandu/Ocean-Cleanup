@@ -13,9 +13,37 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{7A7E82AD-BD97-FBBB-8CA9-743081452A51}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C6A6702B-C393-74DF-77A0-0A305C07C34E}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
+			<Media>
+				<File Id="23985577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Utensils - stem-003.wav</ShortName>
+					<CachePath>SFX/Plastic Utensils - stem-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="638487778" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Utensils - stem-001.wav</ShortName>
+					<CachePath>SFX/Plastic Utensils - stem-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="764575432" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Utensils - stem-002.wav</ShortName>
+					<CachePath>SFX/Plastic Utensils - stem-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="931359013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Utensils - stem-004.wav</ShortName>
+					<CachePath>SFX/Plastic Utensils - stem-004_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1822877436" Name="Play_Plastic_Utensils" DurationType="OneShot" DurationMin="0.29566666" DurationMax="0.47995833">
+					<MediaRefs>
+						<MediaRef Id="23985577"/>
+						<MediaRef Id="638487778"/>
+						<MediaRef Id="764575432"/>
+						<MediaRef Id="931359013"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
@@ -30,7 +58,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{A561657F-1417-EDBA-F2C8-F7C77BB68C6C}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9811273D-F852-4E93-1684-0B0DFB083AD4}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -44,7 +72,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="2352987237" Name="Play_New_Music_Playlist_Container" DurationType="Infinite">
+				<Event Id="2894812387" Name="Play_Music_Intro___Loop" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="70564428"/>
 						<MediaRef Id="966154064"/>
@@ -53,5 +81,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7BBA1EBD-F654-DA31-62AA-DD86BD4A5043}</FileHash>
+	<FileHash>{167F082F-51B6-7779-9EDD-DA4A17CA4652}</FileHash>
 </SoundBanksInfo>
