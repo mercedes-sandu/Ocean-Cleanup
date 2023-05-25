@@ -25,7 +25,95 @@
 								<Action Name="" ID="{7AD3A0A9-0606-4A9E-8EE9-E9558BFAC0F0}" ShortID="675717293">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Plastic Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+											<ObjectRef Name="Plastic_Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Water_Jug" ID="{E4B4B51E-2BA8-4ED8-9670-58907E81D0F2}">
+							<ChildrenList>
+								<Action Name="" ID="{8F3C4652-7905-49A1-B0DC-36A78F246089}" ShortID="829621860">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Water_Jug" ID="{4E06A1D9-2A9B-4082-8E7F-65D5B24B825D}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Regular_Bottle" ID="{88D90C2F-954B-4FD1-B8A4-BF6CFB683656}">
+							<ChildrenList>
+								<Action Name="" ID="{ACE27FA1-F562-4DA5-BE27-EED6EAF4629A}" ShortID="1036650317">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Regular_Bottle" ID="{D6E1D6D8-AE78-41CC-986C-B4CCC3C8C41A}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Small_Bottle" ID="{3F0F8230-190B-4AB1-80CE-8BAFF3A13E65}">
+							<ChildrenList>
+								<Action Name="" ID="{C18D3C3C-286E-45DF-87A4-13039E909837}" ShortID="129741917">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Small_Bottle" ID="{3A801FD9-089B-4E56-AE8D-E85EF93B3BB2}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Styrofoam_Cup" ID="{2327AAEF-887B-401B-8499-346FB107FED7}">
+							<ChildrenList>
+								<Action Name="" ID="{DCDFA34C-662A-4859-9320-1B71840AD111}" ShortID="1028885724">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Styrofoam_Cup" ID="{8E1854CB-4F23-4D06-AD40-ADC977AE03BA}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Party_Balloons" ID="{ABA2B7A4-EA3E-4446-B3DF-C2197AAD6028}">
+							<ChildrenList>
+								<Action Name="" ID="{70ADBFD6-F65C-47FE-9A43-1B948F95B4FD}" ShortID="118134755">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Party_Balloons" ID="{511F3E5B-33AD-4F5C-8283-44A036A91CC7}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Coffee_Stirrer" ID="{0FC1C602-D223-4A7D-80A2-64052C64DA3F}">
+							<ChildrenList>
+								<Action Name="" ID="{28B67443-1967-483C-BFAB-2A5CC7B02D8A}" ShortID="372579528">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coffee_Stirrer" ID="{DAA4D101-7BE2-43E9-9B19-59CA6AEB8DDD}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Lids" ID="{57B26322-ACBD-4040-B234-237E4780DD69}">
+							<ChildrenList>
+								<Action Name="" ID="{7551A6EF-5315-4763-BC14-7014B941EF08}" ShortID="469617865">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Lids" ID="{389A7906-099D-4E71-AF41-581ED7154349}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Colored_Plastic_Cups" ID="{77A28C9C-2AC6-4BC6-8DA6-C776B6D721F6}">
+							<ChildrenList>
+								<Action Name="" ID="{E3B851AF-37C7-45B4-B8C1-EFF3B4E7FDD8}" ShortID="788388642">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Colored_Plastic_Cups" ID="{408D0587-6BBA-44BF-A148-DC0FB2D7D2AF}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

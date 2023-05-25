@@ -13,7 +13,7 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{D6A80D9D-B530-49B0-CC7D-4FD3AFFEA6D0}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{ADABF2E4-F3ED-00E5-E91C-19F68EF5CEAD}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -21,24 +21,184 @@
 					<ShortName>Plastic Utensils - stem-003.wav</ShortName>
 					<CachePath>SFX/Plastic Utensils - stem-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="26477954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lids - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Lids - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="52354080" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Bag - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Plastic Bag - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="84526852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Bottle - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Water Bottle - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104146397" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coffee Stirrer - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Coffee Stirrer - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="108104921" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Submarine Idle Loop.wav</ShortName>
 					<CachePath>SFX/Submarine Idle Loop_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="125958612" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Styrofoam Cup - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Styrofoam Cup - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="157014695" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Straws - stem 5.24.23-004.wav</ShortName>
+					<CachePath>SFX/Straws - stem 5.24.23-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="165952641" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Jug - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Water Jug - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="219883899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lids - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Lids - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="299856050" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colored Plastic Cups - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Colored Plastic Cups - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="300350400" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coffee Stirrer - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Coffee Stirrer - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="325196196" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Bottle - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Water Bottle - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="341664483" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Straws - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Straws - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="416074759" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Coffee Stirrer - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Coffee Stirrer - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="422441870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colored Plastic Cups - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Colored Plastic Cups - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="457261870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Party Balloons - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Party Balloons - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511691974" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small Water Bottle - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Small Water Bottle - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="584356674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Straws - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Straws - stem 5.24.23-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="638487778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Plastic Utensils - stem-001.wav</ShortName>
 					<CachePath>SFX/Plastic Utensils - stem-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="653731555" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Bag - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Plastic Bag - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="719314068" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Jug - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Water Jug - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="738468991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Plastic Bag - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Plastic Bag - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="764575432" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Plastic Utensils - stem-002.wav</ShortName>
 					<CachePath>SFX/Plastic Utensils - stem-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="788633787" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small Water Bottle - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Small Water Bottle - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="841874192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Lids - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Lids - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="856799613" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Styrofoam Cup - stem 5.24.23-001.wav</ShortName>
+					<CachePath>SFX/Styrofoam Cup - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="891704690" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Jug - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Water Jug - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="909737294" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Water Bottle - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Water Bottle - stem 5.24.23-003_10C4C929.wem</CachePath>
 				</File>
 				<File Id="931359013" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Plastic Utensils - stem-004.wav</ShortName>
 					<CachePath>SFX/Plastic Utensils - stem-004_10C4C929.wem</CachePath>
 				</File>
+				<File Id="936210145" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Small Water Bottle - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Small Water Bottle - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="939921682" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Colored Plastic Cups - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Colored Plastic Cups - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1033935345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Styrofoam Cup - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Styrofoam Cup - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1053540652" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Party Balloons - stem 5.24.23-003.wav</ShortName>
+					<CachePath>SFX/Party Balloons - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1054013645" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Straws - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Straws - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1070344753" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Party Balloons - stem 5.24.23-002.wav</ShortName>
+					<CachePath>SFX/Party Balloons - stem 5.24.23-002_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="1660235816" Name="Play_Coffee_Stirrer" DurationType="OneShot" DurationMin="0.36827084" DurationMax="0.64925">
+					<MediaRefs>
+						<MediaRef Id="104146397"/>
+						<MediaRef Id="300350400"/>
+						<MediaRef Id="416074759"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2453105211" Name="Play_Colored_Plastic_Cups" DurationType="OneShot" DurationMin="0.29070833" DurationMax="0.5065521">
+					<MediaRefs>
+						<MediaRef Id="299856050"/>
+						<MediaRef Id="422441870"/>
+						<MediaRef Id="939921682"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3579342912" Name="Play_Lids" DurationType="OneShot" DurationMin="0.32946876" DurationMax="0.5930521">
+					<MediaRefs>
+						<MediaRef Id="26477954"/>
+						<MediaRef Id="219883899"/>
+						<MediaRef Id="841874192"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1707468425" Name="Play_Party_Balloons" DurationType="OneShot" DurationMin="0.48890626" DurationMax="0.8502396">
+					<MediaRefs>
+						<MediaRef Id="457261870"/>
+						<MediaRef Id="1053540652"/>
+						<MediaRef Id="1070344753"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1317114277" Name="Play_Plastic_Straws" DurationType="OneShot" DurationMin="0.47360417" DurationMax="0.6085521">
+					<MediaRefs>
+						<MediaRef Id="157014695"/>
+						<MediaRef Id="341664483"/>
+						<MediaRef Id="584356674"/>
+						<MediaRef Id="1054013645"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1822877436" Name="Play_Plastic_Utensils" DurationType="OneShot" DurationMin="0.29566666" DurationMax="0.47995833">
 					<MediaRefs>
 						<MediaRef Id="23985577"/>
@@ -47,9 +207,37 @@
 						<MediaRef Id="931359013"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4050017945" Name="Play_Regular_Bottle" DurationType="OneShot" DurationMin="0.5045625" DurationMax="0.8608438">
+					<MediaRefs>
+						<MediaRef Id="84526852"/>
+						<MediaRef Id="325196196"/>
+						<MediaRef Id="909737294"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3591410834" Name="Play_Small_Bottle" DurationType="OneShot" DurationMin="0.37291667" DurationMax="0.55158335">
+					<MediaRefs>
+						<MediaRef Id="511691974"/>
+						<MediaRef Id="788633787"/>
+						<MediaRef Id="936210145"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3320104147" Name="Play_Styrofoam_Cup" DurationType="OneShot" DurationMin="0.3398854" DurationMax="0.50965625">
+					<MediaRefs>
+						<MediaRef Id="125958612"/>
+						<MediaRef Id="856799613"/>
+						<MediaRef Id="1033935345"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2401289386" Name="Play_SubIdle" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="108104921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2479836968" Name="Play_Water_Jug" DurationType="OneShot" DurationMin="0.48108333" DurationMax="0.742">
+					<MediaRefs>
+						<MediaRef Id="165952641"/>
+						<MediaRef Id="719314068"/>
+						<MediaRef Id="891704690"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -96,5 +284,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A63F9ABD-98AF-9939-B557-4AA7201FDED3}</FileHash>
+	<FileHash>{ACCF8492-7DC1-8F28-B066-1E7C95A095CD}</FileHash>
 </SoundBanksInfo>

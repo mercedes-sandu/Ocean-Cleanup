@@ -5,13 +5,17 @@
 			<PropertyList>
 				<Property Name="AutoSoundBankEnabled" Type="bool" Value="True"/>
 				<Property Name="Event Action List\{095B2E31-24D7-4CC7-A1CC-965E225C4A4D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0FC1C602-D223-4A7D-80A2-64052C64DA3F}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{2AE701B7-5DD2-41BE-90DE-7A129661A15D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{35E6CDF4-805D-46C1-87D0-4A33104C3248}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{9FBE95EE-AD5A-409D-AA75-36F5B90FA416}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A5490CFF-B004-464C-BB5B-C2A1EBA1B4EE}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A59B2432-4534-427E-AADA-20E065BED72C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{ABA2B7A4-EA3E-4446-B3DF-C2197AAD6028}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C4F202E2-25C2-4251-BC41-889AF4CEC945}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CA7E417F-7DE7-46D2-A6A7-960D6CD9B021}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D0F22A1F-33E0-4046-AA71-D7552FE68AA4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E4B4B51E-2BA8-4ED8-9670-58907E81D0F2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>

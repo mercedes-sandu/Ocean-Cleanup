@@ -5,7 +5,415 @@
 			<ChildrenList>
 				<Folder Name="SFX" ID="{F8A83FC0-2FEB-4890-A8FB-DB151552A66C}" ShortID="387791091">
 					<ChildrenList>
-						<RandomSequenceContainer Name="Bottle_07" ID="{389A7906-099D-4E71-AF41-581ED7154349}" ShortID="561783671">
+						<RandomSequenceContainer Name="Lids" ID="{389A7906-099D-4E71-AF41-581ED7154349}" ShortID="561783671">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Lids - stem 5_24_23-001" ID="{96FD1A31-DD44-4CF0-B3E2-FFAADC2D2826}" ShortID="459156608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lids - stem 5_24_23-001" ID="{E738271E-FEEC-4ABD-A900-5532D15B89AE}">
+											<Language>SFX</Language>
+											<AudioFile>Lids - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841874192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lids - stem 5_24_23-001" ID="{E738271E-FEEC-4ABD-A900-5532D15B89AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lids - stem 5_24_23-002" ID="{4D9C9A66-1831-413E-9CBA-E2C0DE94C2E7}" ShortID="490569795">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lids - stem 5_24_23-002" ID="{754BDA0D-BD43-4755-9728-22A07918BA86}">
+											<Language>SFX</Language>
+											<AudioFile>Lids - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="219883899"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lids - stem 5_24_23-002" ID="{754BDA0D-BD43-4755-9728-22A07918BA86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Lids - stem 5_24_23-003" ID="{092A3D1C-94E0-4963-9563-62F02D4121AD}" ShortID="792077017">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Lids - stem 5_24_23-003" ID="{6EA7DA40-2F95-4C6B-80E8-96163916AEBD}">
+											<Language>SFX</Language>
+											<AudioFile>Lids - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="26477954"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Lids - stem 5_24_23-003" ID="{6EA7DA40-2F95-4C6B-80E8-96163916AEBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Regular_Bottle" ID="{D6E1D6D8-AE78-41CC-986C-B4CCC3C8C41A}" ShortID="180990678">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Water Bottle - stem 5_24_23-001" ID="{7D55B1BD-F0E1-4564-B1C3-3DA999DE7CDD}" ShortID="1058167501">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Bottle - stem 5_24_23-001" ID="{1DF1C4D3-3742-427C-BECE-CE4B9923EF16}">
+											<Language>SFX</Language>
+											<AudioFile>Water Bottle - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="84526852"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Bottle - stem 5_24_23-001" ID="{1DF1C4D3-3742-427C-BECE-CE4B9923EF16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water Bottle - stem 5_24_23-002" ID="{FFCE9C82-1D82-49A4-9A97-CF985CDBC617}" ShortID="276820263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Bottle - stem 5_24_23-002" ID="{81B8C16F-63A5-4557-8728-0616A1C3D29B}">
+											<Language>SFX</Language>
+											<AudioFile>Water Bottle - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="325196196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Bottle - stem 5_24_23-002" ID="{81B8C16F-63A5-4557-8728-0616A1C3D29B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water Bottle - stem 5_24_23-003" ID="{49E70ED3-A628-4D0E-BA89-602B64D2B1BB}" ShortID="766765418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Bottle - stem 5_24_23-003" ID="{6072DF74-C443-46EA-A48E-4994C6926D14}">
+											<Language>SFX</Language>
+											<AudioFile>Water Bottle - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="909737294"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Bottle - stem 5_24_23-003" ID="{6072DF74-C443-46EA-A48E-4994C6926D14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Small_Bottle" ID="{3A801FD9-089B-4E56-AE8D-E85EF93B3BB2}" ShortID="802278323">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Small Water Bottle - stem 5_24_23-001" ID="{6CCC50E3-E9E8-4FC1-A2A7-82D25807BAE9}" ShortID="538233136">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small Water Bottle - stem 5_24_23-001" ID="{10B257F4-E7BA-4459-A18E-67089F4AEAF8}">
+											<Language>SFX</Language>
+											<AudioFile>Small Water Bottle - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="788633787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small Water Bottle - stem 5_24_23-001" ID="{10B257F4-E7BA-4459-A18E-67089F4AEAF8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small Water Bottle - stem 5_24_23-002" ID="{C0A5C956-91F1-4ECB-A484-40E3AD514263}" ShortID="101284651">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small Water Bottle - stem 5_24_23-002" ID="{7AC67093-1D80-469B-84E1-E0B1AB4BD6FB}">
+											<Language>SFX</Language>
+											<AudioFile>Small Water Bottle - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="511691974"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small Water Bottle - stem 5_24_23-002" ID="{7AC67093-1D80-469B-84E1-E0B1AB4BD6FB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Small Water Bottle - stem 5_24_23-003" ID="{C5CB4B8B-5251-495E-9A7E-BDB7D12AAD84}" ShortID="173475297">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Small Water Bottle - stem 5_24_23-003" ID="{9C8263F3-8797-4FFC-A835-3C36ABF6F8F4}">
+											<Language>SFX</Language>
+											<AudioFile>Small Water Bottle - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="936210145"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Small Water Bottle - stem 5_24_23-003" ID="{9C8263F3-8797-4FFC-A835-3C36ABF6F8F4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Colored_Plastic_Cups" ID="{408D0587-6BBA-44BF-A148-DC0FB2D7D2AF}" ShortID="822942204">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Colored Plastic Cups - stem 5_24_23-001" ID="{65A3444B-1361-41AD-85FB-BF1D66285089}" ShortID="421329516">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Colored Plastic Cups - stem 5_24_23-001" ID="{7FEFAB17-96FF-4775-A6D7-3B714845EBE7}">
+											<Language>SFX</Language>
+											<AudioFile>Colored Plastic Cups - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422441870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Colored Plastic Cups - stem 5_24_23-001" ID="{7FEFAB17-96FF-4775-A6D7-3B714845EBE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Colored Plastic Cups - stem 5_24_23-002" ID="{6A096046-B42E-4464-BF90-A25A641B791D}" ShortID="113562055">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Colored Plastic Cups - stem 5_24_23-002" ID="{A435C213-919A-4824-8532-222F3D4D939E}">
+											<Language>SFX</Language>
+											<AudioFile>Colored Plastic Cups - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299856050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Colored Plastic Cups - stem 5_24_23-002" ID="{A435C213-919A-4824-8532-222F3D4D939E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Colored Plastic Cups - stem 5_24_23-003" ID="{F89B7507-7692-4293-A572-D01C29FAC753}" ShortID="66599955">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Colored Plastic Cups - stem 5_24_23-003" ID="{AFFDC260-ECE0-4123-9156-DD5854A7B041}">
+											<Language>SFX</Language>
+											<AudioFile>Colored Plastic Cups - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="939921682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Colored Plastic Cups - stem 5_24_23-003" ID="{AFFDC260-ECE0-4123-9156-DD5854A7B041}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Styrofoam_Cup" ID="{8E1854CB-4F23-4D06-AD40-ADC977AE03BA}" ShortID="353402407">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Styrofoam Cup - stem 5_24_23-001" ID="{82031F69-0DA1-431C-8888-3F41A01F5272}" ShortID="598453178">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Styrofoam Cup - stem 5_24_23-001" ID="{2A6B473C-868D-4461-8E5D-D104B1F61EA5}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Styrofoam Cup - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="856799613"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Styrofoam Cup - stem 5_24_23-001" ID="{2A6B473C-868D-4461-8E5D-D104B1F61EA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Styrofoam Cup - stem 5_24_23-002" ID="{20252CCB-9C21-4D6B-B65C-8A695930A2EC}" ShortID="757119353">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Styrofoam Cup - stem 5_24_23-002" ID="{3E761274-D888-4180-A26C-E648102AED47}">
+											<Language>SFX</Language>
+											<AudioFile>Styrofoam Cup - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1033935345"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Styrofoam Cup - stem 5_24_23-002" ID="{3E761274-D888-4180-A26C-E648102AED47}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Styrofoam Cup - stem 5_24_23-003" ID="{BB44F53A-D52E-42D4-98A1-4E2A834931EA}" ShortID="16457578">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Styrofoam Cup - stem 5_24_23-003" ID="{04ABC1BE-CDE8-4EDA-8E64-557BFA11CFDC}">
+											<Language>SFX</Language>
+											<AudioFile>Styrofoam Cup - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="125958612"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Styrofoam Cup - stem 5_24_23-003" ID="{04ABC1BE-CDE8-4EDA-8E64-557BFA11CFDC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Plastic_Plate" ID="{960F90D9-4BF2-4085-92D9-18CAC7455353}" ShortID="650662192">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -18,7 +426,7 @@
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle" ID="{D6E1D6D8-AE78-41CC-986C-B4CCC3C8C41A}" ShortID="180990678">
+						<RandomSequenceContainer Name="Coffee_Stirrer" ID="{DAA4D101-7BE2-43E9-9B19-59CA6AEB8DDD}" ShortID="546035206">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -30,73 +438,76 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Coffee Stirrer - stem 5_24_23-001" ID="{30340B6F-2C8A-4269-A570-9BCB866BF1E5}" ShortID="80886549">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coffee Stirrer - stem 5_24_23-001" ID="{6D29C09E-C66A-4716-8305-BBAF9170B9F7}">
+											<Language>SFX</Language>
+											<AudioFile>Coffee Stirrer - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104146397"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Coffee Stirrer - stem 5_24_23-001" ID="{6D29C09E-C66A-4716-8305-BBAF9170B9F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coffee Stirrer - stem 5_24_23-002" ID="{249C5C32-6053-451E-8FED-4F3DB8CB887F}" ShortID="7243718">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coffee Stirrer - stem 5_24_23-002" ID="{21DAD246-64C2-43BB-A714-43BE49532476}">
+											<Language>SFX</Language>
+											<AudioFile>Coffee Stirrer - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="416074759"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Coffee Stirrer - stem 5_24_23-002" ID="{21DAD246-64C2-43BB-A714-43BE49532476}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Coffee Stirrer - stem 5_24_23-003" ID="{D9EB7A86-847D-4756-B920-E165C032D612}" ShortID="937970894">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Coffee Stirrer - stem 5_24_23-003" ID="{47FC9321-207E-4614-889F-5FDD064C393F}">
+											<Language>SFX</Language>
+											<AudioFile>Coffee Stirrer - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="300350400"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Coffee Stirrer - stem 5_24_23-003" ID="{47FC9321-207E-4614-889F-5FDD064C393F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle_02" ID="{3A801FD9-089B-4E56-AE8D-E85EF93B3BB2}" ShortID="802278323">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle_06" ID="{408D0587-6BBA-44BF-A148-DC0FB2D7D2AF}" ShortID="822942204">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle_04" ID="{8E1854CB-4F23-4D06-AD40-ADC977AE03BA}" ShortID="353402407">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle_03" ID="{960F90D9-4BF2-4085-92D9-18CAC7455353}" ShortID="650662192">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Bottle_05" ID="{DAA4D101-7BE2-43E9-9B19-59CA6AEB8DDD}" ShortID="546035206">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
-								</Reference>
-							</ReferenceList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Plastic Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" ShortID="628228436">
+						<RandomSequenceContainer Name="Plastic_Utensils" ID="{EB3C2524-30BE-4A08-B552-9471D0A207B6}" ShortID="628228436">
 							<PropertyList>
 								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
@@ -306,6 +717,249 @@
 								<ActiveSource Name="Submarine Idle Loop" ID="{E5F677BA-29F9-4556-A0E7-208C11A92028}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Water_Jug" ID="{4E06A1D9-2A9B-4082-8E7F-65D5B24B825D}" ShortID="52681708">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Water Jug - stem 5_24_23-001" ID="{BDD1F913-9792-44C6-A87F-0FD044E09FDC}" ShortID="913940497">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Jug - stem 5_24_23-001" ID="{59B25739-2227-4C85-B7DF-929B0667135F}">
+											<Language>SFX</Language>
+											<AudioFile>Water Jug - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="719314068"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Jug - stem 5_24_23-001" ID="{59B25739-2227-4C85-B7DF-929B0667135F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water Jug - stem 5_24_23-002" ID="{376253E2-FF12-4C43-91EB-D545B1F045C7}" ShortID="67801046">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Jug - stem 5_24_23-002" ID="{F7B29DE6-134C-41F2-8992-96067958351D}">
+											<Language>SFX</Language>
+											<AudioFile>Water Jug - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="891704690"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Jug - stem 5_24_23-002" ID="{F7B29DE6-134C-41F2-8992-96067958351D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Water Jug - stem 5_24_23-003" ID="{8D4E23E2-2D31-4D46-9C79-C0F087C7FF50}" ShortID="313839960">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Water Jug - stem 5_24_23-003" ID="{DB684C2A-3AEB-4EF7-B967-3D5CBBE0B046}">
+											<Language>SFX</Language>
+											<AudioFile>Water Jug - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="165952641"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Water Jug - stem 5_24_23-003" ID="{DB684C2A-3AEB-4EF7-B967-3D5CBBE0B046}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Party_Balloons" ID="{511F3E5B-33AD-4F5C-8283-44A036A91CC7}" ShortID="635916911">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Party Balloons - stem 5_24_23-001" ID="{CA7AD40B-9D2D-448E-99C6-242367B00D99}" ShortID="574487420">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Party Balloons - stem 5_24_23-001" ID="{ED1E9D00-463D-4782-B023-BF63BEDC346C}">
+											<Language>SFX</Language>
+											<AudioFile>Party Balloons - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="457261870"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Party Balloons - stem 5_24_23-001" ID="{ED1E9D00-463D-4782-B023-BF63BEDC346C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Party Balloons - stem 5_24_23-002" ID="{F09B0DC8-720B-403B-8BB6-146965E6DFDC}" ShortID="150197983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Party Balloons - stem 5_24_23-002" ID="{5FEEF286-F80E-4379-A039-16D0B8B76A60}">
+											<Language>SFX</Language>
+											<AudioFile>Party Balloons - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1070344753"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Party Balloons - stem 5_24_23-002" ID="{5FEEF286-F80E-4379-A039-16D0B8B76A60}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Party Balloons - stem 5_24_23-003" ID="{487474A3-5386-468F-A0F1-8366CE24C95F}" ShortID="413146587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Party Balloons - stem 5_24_23-003" ID="{AAC4B296-2BD9-410B-9292-F9A15DC4A924}">
+											<Language>SFX</Language>
+											<AudioFile>Party Balloons - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053540652"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Party Balloons - stem 5_24_23-003" ID="{AAC4B296-2BD9-410B-9292-F9A15DC4A924}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Plastic_Bag" ID="{D7D51290-2A66-4FAC-886B-5F84EFFBED13}" ShortID="1024217488">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Plastic Bag - stem 5_24_23-001" ID="{4C4CD537-99AE-43D2-9FED-47AEBEBBF514}" ShortID="610301000">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Bag - stem 5_24_23-001" ID="{2E7D604A-3E13-4E7F-BE17-C338E16CA4D8}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Bag - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653731555"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Bag - stem 5_24_23-001" ID="{2E7D604A-3E13-4E7F-BE17-C338E16CA4D8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plastic Bag - stem 5_24_23-002" ID="{DAD5CEAE-0E31-4015-B1D1-16710F58F2CD}" ShortID="459479031">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Bag - stem 5_24_23-002" ID="{8770D522-9204-4B32-9743-AC5C7504A604}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Bag - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="52354080"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Bag - stem 5_24_23-002" ID="{8770D522-9204-4B32-9743-AC5C7504A604}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Plastic Bag - stem 5_24_23-003" ID="{B50310D2-0B3D-4F6C-8C4D-09C71DF811F6}" ShortID="1032772146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Plastic Bag - stem 5_24_23-003" ID="{22A15E4E-6F41-45B7-868A-4E876C2965DF}">
+											<Language>SFX</Language>
+											<AudioFile>Plastic Bag - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="738468991"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Plastic Bag - stem 5_24_23-003" ID="{22A15E4E-6F41-45B7-868A-4E876C2965DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{44D16C72-F630-4072-B877-66367E674620}" ShortID="754248937"/>

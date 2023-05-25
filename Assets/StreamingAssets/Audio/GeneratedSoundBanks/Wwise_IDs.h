@@ -13,9 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_COFFEE_STIRRER = 1660235816U;
+        static const AkUniqueID PLAY_COLORED_PLASTIC_CUPS = 2453105211U;
+        static const AkUniqueID PLAY_LIDS = 3579342912U;
         static const AkUniqueID PLAY_MUSIC_INTRO___LOOP = 2894812387U;
+        static const AkUniqueID PLAY_PARTY_BALLOONS = 1707468425U;
+        static const AkUniqueID PLAY_PLASTIC_STRAWS = 1317114277U;
         static const AkUniqueID PLAY_PLASTIC_UTENSILS = 1822877436U;
+        static const AkUniqueID PLAY_REGULAR_BOTTLE = 4050017945U;
+        static const AkUniqueID PLAY_SMALL_BOTTLE = 3591410834U;
+        static const AkUniqueID PLAY_STYROFOAM_CUP = 3320104147U;
         static const AkUniqueID PLAY_SUBIDLE = 2401289386U;
+        static const AkUniqueID PLAY_WATER_JUG = 2479836968U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

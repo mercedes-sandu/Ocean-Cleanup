@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585166436711856319
+    m_lastTime: -8585166128267425742
     List:
     - name: Ambience
       guid: ae3aadd5de918347b14a9c3cf18817bd
@@ -158,6 +158,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Coffee_Stirrer
+      guid: 02c6c10f23d27d4a80a264052c64da3f
+      id: 1660235816
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Coffee_Stirrer
+        ObjectType: 3
+        guid: 02c6c10f23d27d4a80a264052c64da3f
+      Path: Events\Default Work Unit\SFX\Play_Coffee_Stirrer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Colored_Plastic_Cups
+      guid: 9c8ca277c62ac64b8da6c776b6d721f6
+      id: 2453105211
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Colored_Plastic_Cups
+        ObjectType: 3
+        guid: 9c8ca277c62ac64b8da6c776b6d721f6
+      Path: Events\Default Work Unit\SFX\Play_Colored_Plastic_Cups
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Lids
+      guid: 2263b257bdac4040b234237e4780dd69
+      id: 3579342912
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Lids
+        ObjectType: 3
+        guid: 2263b257bdac4040b234237e4780dd69
+      Path: Events\Default Work Unit\SFX\Play_Lids
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Music_Intro___Loop
       guid: 7f417ecae77dd246a6a7960d6cd9b021
       id: 2894812387
@@ -175,6 +235,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7f417ecae77dd246a6a7960d6cd9b021
       Path: Events\Default Work Unit\Music\Play_Music_Intro___Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Party_Balloons
+      guid: a4b7a2ab3eea4644b3dfc2197aad6028
+      id: 1707468425
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Party_Balloons
+        ObjectType: 3
+        guid: a4b7a2ab3eea4644b3dfc2197aad6028
+      Path: Events\Default Work Unit\SFX\Play_Party_Balloons
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -198,6 +278,66 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Regular_Bottle
+      guid: 2f0cd9884b95d14fb8a4bf6cfb683656
+      id: 4050017945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Regular_Bottle
+        ObjectType: 3
+        guid: 2f0cd9884b95d14fb8a4bf6cfb683656
+      Path: Events\Default Work Unit\SFX\Play_Regular_Bottle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Small_Bottle
+      guid: 30820f3f0b19b14a80ce8baff3a13e65
+      id: 3591410834
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Small_Bottle
+        ObjectType: 3
+        guid: 30820f3f0b19b14a80ce8baff3a13e65
+      Path: Events\Default Work Unit\SFX\Play_Small_Bottle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Styrofoam_Cup
+      guid: efaa27237b881b408499346fb107fed7
+      id: 3320104147
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Styrofoam_Cup
+        ObjectType: 3
+        guid: efaa27237b881b408499346fb107fed7
+      Path: Events\Default Work Unit\SFX\Play_Styrofoam_Cup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_SubIdle
       guid: e202f2c4c2255142bc41889af4cec945
       id: 2401289386
@@ -215,6 +355,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: e202f2c4c2255142bc41889af4cec945
       Path: Events\Default Work Unit\Ambience\Play_SubIdle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Water_Jug
+      guid: 1eb5b4e4a82bd84e967058907e81d0f2
+      id: 2479836968
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Water_Jug
+        ObjectType: 3
+        guid: 1eb5b4e4a82bd84e967058907e81d0f2
+      Path: Events\Default Work Unit\SFX\Play_Water_Jug
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -306,7 +466,7 @@ MonoBehaviour:
     m_lastTime: -8585167094310768894
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 02000000050000000600000007000000080000000a0000000b0000000c0000000f00000011000000130000001a000000
+  ExpandedWaapiItemIds: 0200000005000000060000000700000008000000090000000a0000000b0000000c0000000f00000011000000130000001a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
