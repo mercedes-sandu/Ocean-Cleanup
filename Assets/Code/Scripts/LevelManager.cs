@@ -36,6 +36,8 @@ namespace Code.Scripts
             
             Player.Instance.SetPlasticValues(ProgressionSaver.Instance.playerPlasticPoints,
                 ProgressionSaver.Instance.playerPlasticsCollected);
+            Player.Instance.SetUpgrades(ProgressionSaver.Instance.playerSpeedMultiplier,
+                ProgressionSaver.Instance.playerCollisionRadius);
         }
 
         /// <summary>

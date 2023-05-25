@@ -18,6 +18,16 @@ namespace Code.Scripts
         /// The player's saved number of plastics collected.
         /// </summary>
         public int playerPlasticsCollected = 0;
+
+        /// <summary>
+        /// The player's saved speed multiplier.
+        /// </summary>
+        public float playerSpeedMultiplier = 1f;
+
+        /// <summary>
+        /// The player's saved collision radius.
+        /// </summary>
+        public float playerCollisionRadius = 1.5f;
         
         /// <summary>
         /// Creates a singleton instance of this class and prevents this object from being destroyed on scene load.
@@ -45,6 +55,26 @@ namespace Code.Scripts
         {
             playerPlasticPoints = plasticPoints;
             playerPlasticsCollected = plasticsCollected;
+        }
+        
+        /// <summary>
+        /// Called by the UpgradeMenu class whenever the player's speed multiplier is increased to update saved
+        /// information.
+        /// </summary>
+        /// <param name="speedMultiplier">The saved speed multiplier.</param>
+        public void UpdatePlayerSpeedMultiplier(float speedMultiplier)
+        {
+            playerSpeedMultiplier = speedMultiplier;
+        }
+        
+        /// <summary>
+        /// Called by the UpgradeMenu class whenever the player's collision radius is increased to update saved
+        /// information.
+        /// </summary>
+        /// <param name="collisionRadius">The saved collision radius.</param>
+        public void UpdatePlayerCollisionRadius(float collisionRadius)
+        {
+            playerCollisionRadius = collisionRadius;
         }
     }
 }
