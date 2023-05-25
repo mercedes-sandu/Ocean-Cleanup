@@ -21,9 +21,9 @@ namespace Code.Scripts
         [SerializeField] private Sprite availableSprite;
 
         /// <summary>
-        /// The sprite renderer component.
+        /// The image component.
         /// </summary>
-        private SpriteRenderer _sr;
+        private Image _image;
 
         /// <summary>
         /// The button component.
@@ -35,7 +35,7 @@ namespace Code.Scripts
         /// </summary>
         private void Awake()
         {
-            _sr = GetComponent<SpriteRenderer>();
+            _image = GetComponent<Image>();
             _button = GetComponent<Button>();
         }
         
@@ -46,7 +46,7 @@ namespace Code.Scripts
         /// <param name="canPurchase">True if the upgrade can be purchased, false otherwise.</param>
         public void UpdateButton(bool unlocked, bool canPurchase)
         {
-            _sr.sprite = canPurchase ? availableSprite : unlocked ? unlockedSprite : lockedSprite;
+            _image.sprite = canPurchase ? availableSprite : unlocked ? unlockedSprite : lockedSprite;
             _button.interactable = canPurchase;
         }
     }

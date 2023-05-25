@@ -29,7 +29,7 @@ namespace Code.Scripts
         /// <summary>
         /// The pause button sprite renderer.
         /// </summary>
-        private SpriteRenderer _pauseButtonSpriteRenderer;
+        private Image _pauseButtonImage;
         
         /// <summary>
         /// The pause button button component.
@@ -56,7 +56,7 @@ namespace Code.Scripts
         /// </summary>
         private void Awake()
         {
-            _pauseButtonSpriteRenderer = pauseButton.GetComponent<SpriteRenderer>();
+            _pauseButtonImage = pauseButton.GetComponent<Image>();
             _pauseButton = pauseButton.GetComponent<Button>();
             pauseMenuCanvas.enabled = false;
             
@@ -107,7 +107,7 @@ namespace Code.Scripts
         /// </summary>
         public void PauseButton()
         {
-            _pauseButtonSpriteRenderer.enabled = false;
+            _pauseButtonImage.enabled = false;
             _pauseButton.interactable = false;
             pauseMenuCanvas.enabled = true;
             Time.timeScale = 0;
@@ -120,7 +120,7 @@ namespace Code.Scripts
         public void ResumeButton()
         {
             pauseMenuCanvas.enabled = false;
-            _pauseButtonSpriteRenderer.enabled = true;
+            _pauseButtonImage.enabled = true;
             _pauseButton.interactable = true;
             Time.timeScale = 1;
             _isPaused = false;
