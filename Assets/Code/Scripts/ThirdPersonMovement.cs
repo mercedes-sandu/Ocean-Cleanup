@@ -30,6 +30,14 @@ namespace Code.Scripts
         private float _turnSmoothVelocity;
 
         /// <summary>
+        /// Subscribes to game events.
+        /// </summary>
+        private void Awake()
+        {
+            GameEvent.OnSpeedUpgrade += UpdateSpeed;
+        }
+
+        /// <summary>
         /// Moves the player according to input.
         /// </summary>
         private void Update()
@@ -56,6 +64,14 @@ namespace Code.Scripts
         public void UpdateSpeed(float multiplier)
         {
             speed *= multiplier;
+        }
+
+        /// <summary>
+        /// Unsubscribes from game events.
+        /// </summary>
+        private void OnDestroy()
+        {
+            GameEvent.OnSpeedUpgrade -= UpdateSpeed;
         }
     }
 }
