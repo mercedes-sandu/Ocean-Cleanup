@@ -13,13 +13,17 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C6A6702B-C393-74DF-77A0-0A305C07C34E}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{D6A80D9D-B530-49B0-CC7D-4FD3AFFEA6D0}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
 				<File Id="23985577" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Plastic Utensils - stem-003.wav</ShortName>
 					<CachePath>SFX/Plastic Utensils - stem-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="108104921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Submarine Idle Loop.wav</ShortName>
+					<CachePath>SFX/Submarine Idle Loop_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="638487778" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Plastic Utensils - stem-001.wav</ShortName>
@@ -43,9 +47,17 @@
 						<MediaRef Id="931359013"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2401289386" Name="Play_SubIdle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="108104921"/>
+					</MediaRefs>
+				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D66E90C5-79F7-CD42-4074-5EBA6732ED7D}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -57,8 +69,11 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9811273D-F852-4E93-1684-0B0DFB083AD4}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{224A5763-BC0E-DD75-F1AF-2D829C09C405}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -81,5 +96,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{167F082F-51B6-7779-9EDD-DA4A17CA4652}</FileHash>
+	<FileHash>{856DA8F6-DFF2-C8BA-5FE1-A0BD3FD63C07}</FileHash>
 </SoundBanksInfo>

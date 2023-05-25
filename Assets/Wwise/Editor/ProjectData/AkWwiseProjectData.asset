@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585166589825969927
+    m_lastTime: -8585166436711856319
     List:
     - name: Ambience
       guid: ae3aadd5de918347b14a9c3cf18817bd
@@ -198,6 +198,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SubIdle
+      guid: e202f2c4c2255142bc41889af4cec945
+      id: 2401289386
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: ae3aadd5de918347b14a9c3cf18817bd
+      - ElementName: Play_SubIdle
+        ObjectType: 3
+        guid: e202f2c4c2255142bc41889af4cec945
+      Path: Events\Default Work Unit\Ambience\Play_SubIdle
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: SFX
       guid: 9f02e34f20320240bb1bc08c72528b26
       id: 393239870
@@ -227,8 +247,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bffe693e33c0c147b83e800008f0d24a
     GuidInternal: 
-    m_lastTime: -8585167094311709344
-    List: []
+    m_lastTime: -8585166369511019512
+    List:
+    - name: SubmarineCurrentSpeed
+      guid: b1be2d99217b054aac0272dc1120c80a
+      id: 459289031
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bffe693e33c0c147b83e800008f0d24a
+      - ElementName: SubmarineCurrentSpeed
+        ObjectType: 13
+        guid: b1be2d99217b054aac0272dc1120c80a
+      Path: Game Parameters\Default Work Unit\SubmarineCurrentSpeed
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

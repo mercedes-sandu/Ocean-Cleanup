@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3E69FEBF-C033-47C1-B83E-800008F0D24A}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{3E69FEBF-C033-47C1-B83E-800008F0D24A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{3E69FEBF-C033-47C1-B83E-800008F0D24A}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SubmarineCurrentSpeed" ID="{992DBEB1-7B21-4A05-AC02-72DC1120C80A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
+						<Property Name="Min" Type="Real64" Value="0.5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

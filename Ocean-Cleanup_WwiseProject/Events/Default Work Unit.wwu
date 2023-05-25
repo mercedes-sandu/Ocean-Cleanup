@@ -33,7 +33,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Ambience" ID="{D5AD3AAE-91DE-4783-B14A-9C3CF18817BD}" ShortID="331336752"/>
+				<Folder Name="Ambience" ID="{D5AD3AAE-91DE-4783-B14A-9C3CF18817BD}" ShortID="331336752">
+					<ChildrenList>
+						<Event Name="Play_SubIdle" ID="{C4F202E2-25C2-4251-BC41-889AF4CEC945}">
+							<ChildrenList>
+								<Action Name="" ID="{D70CA685-62E6-4390-98B4-9CCA7C4F0D43}" ShortID="58220718">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SubIdle" ID="{3929AC43-CDA1-451C-8019-C49585AE150D}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

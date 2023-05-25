@@ -1,8 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1822877436	Play_Plastic_Utensils			\Default Work Unit\SFX\Play_Plastic_Utensils	
+	2401289386	Play_SubIdle			\Default Work Unit\Ambience\Play_SubIdle	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	459289031	SubmarineCurrentSpeed			\Default Work Unit\SubmarineCurrentSpeed	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23985577	Plastic Utensils - stem-003	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Plastic Utensils - stem-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Plastic Utensils\Plastic Utensils - stem-003		68656
+	108104921	SubIdle	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Submarine Idle Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SubIdle		28926744
 	638487778	Plastic Utensils - stem-001	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Plastic Utensils - stem-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Plastic Utensils\Plastic Utensils - stem-001		92248
 	764575432	Plastic Utensils - stem-002	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Plastic Utensils - stem-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Plastic Utensils\Plastic Utensils - stem-002		56864
 	931359013	Plastic Utensils - stem-004	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Plastic Utensils - stem-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Plastic Utensils\Plastic Utensils - stem-004		63496

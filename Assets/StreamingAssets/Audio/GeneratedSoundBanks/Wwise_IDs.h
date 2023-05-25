@@ -15,7 +15,13 @@ namespace AK
     {
         static const AkUniqueID PLAY_MUSIC_INTRO___LOOP = 2894812387U;
         static const AkUniqueID PLAY_PLASTIC_UTENSILS = 1822877436U;
+        static const AkUniqueID PLAY_SUBIDLE = 2401289386U;
     } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID SUBMARINECURRENTSPEED = 459289031U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

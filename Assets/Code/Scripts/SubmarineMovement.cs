@@ -8,37 +8,37 @@ namespace Code.Scripts
         /// The player's speed. 
         /// </summary>
         [SerializeField] private float speed;
-        
+
         /// <summary>
         /// The player's turn speed.
         /// </summary>
         [SerializeField] private float turnSpeed;
-        
+
         /// <summary>
         /// The speed at which the sub returns back to a normal rotation.
         /// </summary>
         [SerializeField] private float stabilizationSmoothing;
-        
+
         /// <summary>
         /// The maximum speed the player can achieve while moving forward.
         /// </summary>
         [SerializeField] private float maxForwardSpeed;
-        
+
         /// <summary>
         /// The maximum speed the player can achieve while moving backward.
         /// </summary>
         [SerializeField] private float maxBackSpeed;
-        
+
         /// <summary>
         /// The player's minimum speed.
         /// </summary>
         [SerializeField] private float minSpeed;
-        
+
         /// <summary>
         /// The player's current speed.
         /// </summary>
         private float _curSpeed;
-        
+
         /// <summary>
         /// The player's rigidbody component.
         /// </summary>
@@ -92,15 +92,21 @@ namespace Code.Scripts
                 _rb.AddTorque(transform.up * turnSpeed);
             else if (Input.GetKey(KeyCode.A))
                 _rb.AddTorque(transform.up * -turnSpeed);
-        
+
             if (Input.GetKey(KeyCode.LeftShift))
                 _rb.AddTorque(transform.right * turnSpeed);
             else if (Input.GetKey(KeyCode.LeftControl))
                 _rb.AddTorque(transform.right * -turnSpeed);
-            
+
             // slowly stabilize rotation
             var rotation = _rb.rotation;
             // _rb.MoveRotation(Quaternion.Slerp(rotation, Quaternion.Euler(new Vector3(0, 0, rotation.eulerAngles.z)), stabilizationSmoothing));
+        }
+        void Update()
+        {
+            ///_curSpeed = CurSpeedGaugeSettings.GetValue();
+            AkSoundEngine.SetRTPCValue("SubmarineCurrentSpeed", _curSpeed);
+            Debug.Log(_curSpeed);
         }
     }
 }
