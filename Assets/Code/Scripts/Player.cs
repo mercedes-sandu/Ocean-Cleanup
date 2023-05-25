@@ -5,6 +5,9 @@ namespace Code.Scripts
 {
     public class Player : MonoBehaviour
     {
+        /// <summary>
+        /// The instance of the player available to all classes.
+        /// </summary>
         public static Player Instance = null;
         
         /// <summary>
@@ -21,6 +24,16 @@ namespace Code.Scripts
         /// The plastic points the player has accumulated.
         /// </summary>
         private int _plasticPoints = 0;
+        
+        /// <summary>
+        /// The player's movement component.
+        /// </summary>
+        private ThirdPersonMovement _movement;
+        
+        /// <summary>
+        /// The player's collider component.
+        /// </summary>
+        private CapsuleCollider _collider;
 
         /// <summary>
         /// Creates a singleton instance of this class and subscribes to game events.
@@ -48,6 +61,17 @@ namespace Code.Scripts
         {
             _plasticPoints = plasticPoints;
             _plasticsCollected = plasticsCollected;
+        }
+
+        /// <summary>
+        /// Called by the level manager at the start of a scene to load the player's saved upgrades.
+        /// </summary>
+        /// <param name="speedMultiplier"></param>
+        /// <param name="collisionRadius"></param>
+        public void SetUpgrades(float speedMultiplier, float collisionRadius)
+        {
+            _movement.UpdateSpeed(speedMultiplier);
+            _collider.radius = collisionRadius;
         }
 
         /// <summary>

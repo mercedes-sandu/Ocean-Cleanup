@@ -48,5 +48,14 @@ namespace Code.Scripts
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * (speed * Time.deltaTime)); // rider said to reorder operations
         }
+
+        /// <summary>
+        /// Updates the speed with the new multiplier.
+        /// </summary>
+        /// <param name="multiplier">The speed multiplier.</param>
+        public void UpdateSpeed(float multiplier)
+        {
+            speed *= multiplier;
+        }
     }
 }
