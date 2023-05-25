@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585166128267425742
+    m_lastTime: -8585166111818867514
     List:
     - name: Ambience
       guid: ae3aadd5de918347b14a9c3cf18817bd
@@ -255,6 +255,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: a4b7a2ab3eea4644b3dfc2197aad6028
       Path: Events\Default Work Unit\SFX\Play_Party_Balloons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Plastic_Straws
+      guid: c063fca597eaab47b7a1b13d6950acb6
+      id: 1317114277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Plastic_Straws
+        ObjectType: 3
+        guid: c063fca597eaab47b7a1b13d6950acb6
+      Path: Events\Default Work Unit\SFX\Play_Plastic_Straws
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -407,7 +427,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bffe693e33c0c147b83e800008f0d24a
     GuidInternal: 
-    m_lastTime: -8585166369511019512
+    m_lastTime: -8585166111818917526
     List:
     - name: SubmarineCurrentSpeed
       guid: b1be2d99217b054aac0272dc1120c80a

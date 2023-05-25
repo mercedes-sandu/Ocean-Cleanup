@@ -119,6 +119,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Plastic_Straws" ID="{A5FC63C0-EA97-47AB-B7A1-B13D6950ACB6}">
+							<ChildrenList>
+								<Action Name="" ID="{127B9392-5DFE-4147-B856-C2A6AE442F83}" ShortID="125506380">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plastic_Straws" ID="{C5DFE90F-4596-4B3B-B24F-31BF68769E40}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambience" ID="{D5AD3AAE-91DE-4783-B14A-9C3CF18817BD}" ShortID="331336752">

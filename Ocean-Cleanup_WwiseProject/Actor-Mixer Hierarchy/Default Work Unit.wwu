@@ -664,43 +664,53 @@
 																</PropertyList>
 																<PointList>
 																	<Point>
-																		<XPos>0.5</XPos>
-																		<YPos>0</YPos>
+																		<XPos>-15</XPos>
+																		<YPos>608</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>4.79769736842105</XPos>
+																		<XPos>-5.90551</XPos>
+																		<YPos>607</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.0393700787401574</XPos>
 																		<YPos>0</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>4.90561</XPos>
+																		<XPos>4.928</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>5.516</XPos>
 																		<YPos>872</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>10.10033</XPos>
-																		<YPos>872</YPos>
+																		<XPos>9.717</XPos>
+																		<YPos>957</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>10.52796</XPos>
+																		<XPos>11.70547</XPos>
+																		<YPos>957</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>13.307</XPos>
 																		<YPos>1200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>14.95395</XPos>
-																		<YPos>1200</YPos>
-																		<Flags>0</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>15.16776</XPos>
-																		<YPos>1650</YPos>
+																		<XPos>15.89722</XPos>
+																		<YPos>2500</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>20</XPos>
-																		<YPos>1650</YPos>
+																		<YPos>2500</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -956,6 +966,109 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Plastic Bag - stem 5_24_23-003" ID="{22A15E4E-6F41-45B7-868A-4E876C2965DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Plastic_Straws" ID="{C5DFE90F-4596-4B3B-B24F-31BF68769E40}" ShortID="554501999">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Straws - stem 5_24_23-001" ID="{5F1518B5-C846-4A32-B444-8F8074DB80F1}" ShortID="155894260">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Straws - stem 5_24_23-001" ID="{EFA2A846-658C-42F7-B844-3657152C68F0}">
+											<Language>SFX</Language>
+											<AudioFile>Straws - stem 5.24.23-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="341664483"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Straws - stem 5_24_23-001" ID="{EFA2A846-658C-42F7-B844-3657152C68F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Straws - stem 5_24_23-002" ID="{3272551D-9230-48D8-8FE9-3ABC0A1B56E4}" ShortID="511694462">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Straws - stem 5_24_23-002" ID="{E47F661A-033A-46FE-B3F0-8A1A9B469970}">
+											<Language>SFX</Language>
+											<AudioFile>Straws - stem 5.24.23-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1054013645"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Straws - stem 5_24_23-002" ID="{E47F661A-033A-46FE-B3F0-8A1A9B469970}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Straws - stem 5_24_23-003" ID="{BC7C8A5F-6D81-4FF6-AA32-C2CA0C1F0074}" ShortID="152864218">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Straws - stem 5_24_23-003" ID="{64FD5A01-9852-459A-8E69-160705A48B80}">
+											<Language>SFX</Language>
+											<AudioFile>Straws - stem 5.24.23-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="584356674"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Straws - stem 5_24_23-003" ID="{64FD5A01-9852-459A-8E69-160705A48B80}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Straws - stem 5_24_23-004" ID="{96ADF3C3-1266-4FBA-AFE4-12E9F0EADB21}" ShortID="347040355">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Straws - stem 5_24_23-004" ID="{9741F090-CB3F-44B3-A757-B99514A5421E}">
+											<Language>SFX</Language>
+											<AudioFile>Straws - stem 5.24.23-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="157014695"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Straws - stem 5_24_23-004" ID="{9741F090-CB3F-44B3-A757-B99514A5421E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
