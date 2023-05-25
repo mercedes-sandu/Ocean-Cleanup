@@ -87,6 +87,12 @@ namespace Code.Scripts
         }
 
         /// <summary>
+        /// Returns the player's current plastic points total.
+        /// </summary>
+        /// <returns>How many plastic points the player currently has.</returns>
+        public int GetPlasticPoints() => _plasticPoints;
+
+        /// <summary>
         /// Unsubscribes from game events.
         /// </summary>
         private void OnDestroy()

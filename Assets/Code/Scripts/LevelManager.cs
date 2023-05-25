@@ -38,12 +38,14 @@ namespace Code.Scripts
                 ProgressionSaver.Instance.playerPlasticsCollected);
             Player.Instance.SetUpgrades(ProgressionSaver.Instance.playerSpeedMultiplier,
                 ProgressionSaver.Instance.playerCollisionRadius);
+            UpgradeMenu.Instance.SetUpgrades(ProgressionSaver.Instance.playerSpeedMultiplier,
+                ProgressionSaver.Instance.playerCollisionRadius);
         }
 
         /// <summary>
         /// Checks if the player has collected the required number of plastics to complete the level.
         /// </summary>
-        /// <param name="plasticPoints"></param>
+        /// <param name="plasticPoints">The amount of plastic points collected.</param>
         private void PlasticCollected(int plasticPoints)
         {
             _plasticsCollected++;
