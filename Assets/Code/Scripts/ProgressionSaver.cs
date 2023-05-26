@@ -14,10 +14,10 @@ namespace Code.Scripts
         /// </summary>
         public int playerPlasticPoints = 0;
 
-        /// <summary>
-        /// The player's saved number of plastics collected.
-        /// </summary>
-        public int playerPlasticsCollected = 0;
+        // /// <summary>
+        // /// The player's saved number of plastics collected.
+        // /// </summary>
+        // public int playerPlasticsCollected = 0;
 
         /// <summary>
         /// The player's saved speed multiplier.
@@ -50,11 +50,11 @@ namespace Code.Scripts
         /// Called by the Player class whenever plastic is collected to update saved information.
         /// </summary>
         /// <param name="plasticPoints">The saved number of plastic points.</param>
-        /// <param name="plasticsCollected">The saved number of plastics collected.</param>
-        public void UpdatePlasticValues(int plasticPoints, int plasticsCollected)
+        // /// <param name="plasticsCollected">The saved number of plastics collected.</param>
+        public void UpdatePlasticValues(int plasticPoints) //, int plasticsCollected)
         {
             playerPlasticPoints = plasticPoints;
-            playerPlasticsCollected = plasticsCollected;
+            // playerPlasticsCollected = plasticsCollected;
         }
         
         /// <summary>

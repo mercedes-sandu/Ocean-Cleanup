@@ -33,9 +33,9 @@ namespace Code.Scripts
         private void Start()
         {
             _numPlastics = FindObjectsOfType<Plastic>().Length;
-            
-            Player.Instance.SetPlasticValues(ProgressionSaver.Instance.playerPlasticPoints,
-                ProgressionSaver.Instance.playerPlasticsCollected);
+
+            Player.Instance.SetPlasticValues(ProgressionSaver.Instance.playerPlasticPoints); //,
+                // ProgressionSaver.Instance.playerPlasticsCollected);
             Player.Instance.SetUpgrades(ProgressionSaver.Instance.playerSpeedMultiplier,
                 ProgressionSaver.Instance.playerCollisionRadius);
             UpgradeMenu.Instance.SetUpgrades(ProgressionSaver.Instance.playerSpeedMultiplier,

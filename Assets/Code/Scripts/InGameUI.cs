@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Code.Scripts
@@ -25,6 +26,11 @@ namespace Code.Scripts
         /// The pause button game object.
         /// </summary>
         [SerializeField] private GameObject pauseButton;
+
+        /// <summary>
+        /// The canvas component of the menu that loads the next scene on level complete.
+        /// </summary>
+        [SerializeField] private Canvas nextSceneCanvas;
         
         /// <summary>
         /// The pause button sprite renderer.
@@ -57,6 +63,11 @@ namespace Code.Scripts
         private int _totalPlastics;
 
         /// <summary>
+        /// The name of the next scene, which is set on level complete.
+        /// </summary>
+        private string _nextSceneName;
+
+        /// <summary>
         /// Gets and initializes components, subscribes to game events.
         /// </summary>
         private void Awake()
@@ -66,6 +77,7 @@ namespace Code.Scripts
             pauseMenuCanvas.enabled = false;
             
             GameEvent.OnPlasticCollect += PlasticCollected;
+            GameEvent.OnLevelComplete += LevelComplete;
         }
 
         /// <summary>
@@ -73,7 +85,7 @@ namespace Code.Scripts
         /// </summary>
         private void Start()
         {
-            _numPlastics = ProgressionSaver.Instance.playerPlasticsCollected;
+            _numPlastics = 0;
             _plasticPoints = ProgressionSaver.Instance.playerPlasticPoints;
             _totalPlastics = FindObjectsOfType<Plastic>().Length;
             numPlasticsText.text = $"x {_numPlastics} / {_totalPlastics}";
@@ -131,6 +143,27 @@ namespace Code.Scripts
             Time.timeScale = 1;
             _isPaused = false;
         }
+        
+        /// <summary>
+        /// Enables the next scene canvas and sets the next scene name.
+        /// </summary>
+        /// <param name="nextLevel">The name of the next scene.</param>
+        private void LevelComplete(string nextLevel)
+        {
+            _nextSceneName = nextLevel;
+            nextSceneCanvas.enabled = true;
+            Time.timeScale = 0;
+        }
+        
+        /// <summary>
+        /// Called by the next level button, loads the next level.
+        /// </summary>
+        public void NextLevelButton()
+        {
+            ProgressionSaver.Instance.playerPlasticPoints = _plasticPoints;
+            Time.timeScale = 1;
+            SceneManager.LoadScene(_nextSceneName);
+        }
 
         /// <summary>
         /// Unsubscribes from game events.
@@ -138,6 +171,7 @@ namespace Code.Scripts
         private void OnDestroy()
         {
             GameEvent.OnPlasticCollect -= PlasticCollected;
+            GameEvent.OnLevelComplete -= LevelComplete;
         }
     }
 }

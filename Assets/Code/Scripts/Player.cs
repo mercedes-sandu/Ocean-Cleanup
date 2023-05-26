@@ -59,11 +59,11 @@ namespace Code.Scripts
         /// Called by the level manager at the start of a scene to load the player's saved plastic values.
         /// </summary>
         /// <param name="plasticPoints">The saved plastic points.</param>
-        /// <param name="plasticsCollected">The saved number of plastics collected.</param>
-        public void SetPlasticValues(int plasticPoints, int plasticsCollected)
+        // /// <param name="plasticsCollected">The saved number of plastics collected.</param>
+        public void SetPlasticValues(int plasticPoints) //, int plasticsCollected)
         {
             _plasticPoints = plasticPoints;
-            _plasticsCollected = plasticsCollected;
+            // _plasticsCollected = plasticsCollected;
         }
 
         /// <summary>
@@ -86,7 +86,7 @@ namespace Code.Scripts
         {
             _plasticPoints += plasticPoints;
             _plasticsCollected++;
-            ProgressionSaver.Instance.UpdatePlasticValues(_plasticPoints, _plasticsCollected);
+            ProgressionSaver.Instance.UpdatePlasticValues(_plasticPoints); //, _plasticsCollected);
         }
 
         /// <summary>

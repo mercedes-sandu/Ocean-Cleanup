@@ -136,6 +136,7 @@ namespace Code.Scripts
         private void OpenUpgradeMenu()
         {
             _canvas.enabled = true;
+            Time.timeScale = 0;
             _isMenuOpen = true;
             plasticPointsText.text = $"x {Player.Instance.GetPlasticPoints()}";
             for (int i = 0; i < speedMultiplierButtons.Count; i++)
@@ -170,6 +171,7 @@ namespace Code.Scripts
         {
             _canvas.enabled = false;
             _isMenuOpen = false;
+            Time.timeScale = 1;
         }
 
         /// <summary>
