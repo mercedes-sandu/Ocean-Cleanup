@@ -52,6 +52,11 @@ namespace Code.Scripts
         private int _plasticPoints;
 
         /// <summary>
+        /// The total number of plastics the player can collect in this area.
+        /// </summary>
+        private int _totalPlastics;
+
+        /// <summary>
         /// Gets and initializes components, subscribes to game events.
         /// </summary>
         private void Awake()
@@ -70,7 +75,8 @@ namespace Code.Scripts
         {
             _numPlastics = ProgressionSaver.Instance.playerPlasticsCollected;
             _plasticPoints = ProgressionSaver.Instance.playerPlasticPoints;
-            numPlasticsText.text = $"x {_numPlastics}";
+            _totalPlastics = FindObjectsOfType<Plastic>().Length;
+            numPlasticsText.text = $"x {_numPlastics} / {_totalPlastics}";
             plasticPointsText.text = $"x {_plasticPoints}";
         }
         
@@ -98,7 +104,7 @@ namespace Code.Scripts
         {
             _numPlastics++;
             _plasticPoints += plasticPoints;
-            numPlasticsText.text = $"x {_numPlastics}";
+            numPlasticsText.text = $"x {_numPlastics} / {_totalPlastics}";
             plasticPointsText.text = $"x {_plasticPoints}";
         }
 
