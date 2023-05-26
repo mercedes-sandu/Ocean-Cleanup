@@ -30,14 +30,6 @@ namespace Code.Scripts
         private float _turnSmoothVelocity;
 
         /// <summary>
-        /// Subscribes to game events.
-        /// </summary>
-        private void Awake()
-        {
-            GameEvent.OnSpeedUpgrade += UpdateSpeed;
-        }
-
-        /// <summary>
         /// Moves the player according to input.
         /// </summary>
         private void Update()
@@ -55,23 +47,6 @@ namespace Code.Scripts
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * (speed * Time.deltaTime)); // rider said to reorder operations
-        }
-
-        /// <summary>
-        /// Updates the speed with the new multiplier.
-        /// </summary>
-        /// <param name="multiplier">The speed multiplier.</param>
-        public void UpdateSpeed(float multiplier)
-        {
-            speed *= multiplier;
-        }
-
-        /// <summary>
-        /// Unsubscribes from game events.
-        /// </summary>
-        private void OnDestroy()
-        {
-            GameEvent.OnSpeedUpgrade -= UpdateSpeed;
         }
     }
 }

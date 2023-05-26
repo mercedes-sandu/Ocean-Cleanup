@@ -28,7 +28,7 @@ namespace Code.Scripts
         /// <summary>
         /// The player's movement component.
         /// </summary>
-        private ThirdPersonMovement _movement;
+        private SubmarineMovement _movement;
         
         /// <summary>
         /// The player's collider component.
@@ -48,6 +48,9 @@ namespace Code.Scripts
             {
                 Destroy(gameObject);
             }
+            
+            _movement = GetComponent<SubmarineMovement>();
+            _collider = GetComponent<CapsuleCollider>();
             
             GameEvent.OnPlasticCollect += CollectPlastic;
         }

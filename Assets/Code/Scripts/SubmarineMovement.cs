@@ -60,6 +60,14 @@ namespace Code.Scripts
         private static readonly int AnimSpeed = Animator.StringToHash("AnimSpeed");
 
         /// <summary>
+        /// Subscribes to game events.
+        /// </summary>
+        private void Awake()
+        {
+            GameEvent.OnSpeedUpgrade += UpdateSpeed;
+        }
+        
+        /// <summary>
         /// Initializes components.
         /// </summary>
         void Start()
@@ -101,6 +109,23 @@ namespace Code.Scripts
             // slowly stabilize rotation
             var rotation = _rb.rotation;
             // _rb.MoveRotation(Quaternion.Slerp(rotation, Quaternion.Euler(new Vector3(0, 0, rotation.eulerAngles.z)), stabilizationSmoothing));
+        }
+        
+        /// <summary>
+        /// Updates the speed with the new multiplier.
+        /// </summary>
+        /// <param name="multiplier">The speed multiplier.</param>
+        public void UpdateSpeed(float multiplier)
+        {
+            speed *= multiplier;
+        }
+
+        /// <summary>
+        /// Unsubscribes from game events.
+        /// </summary>
+        private void OnDestroy()
+        {
+            GameEvent.OnSpeedUpgrade -= UpdateSpeed;
         }
     }
 }
