@@ -105,6 +105,11 @@ namespace Code.Scripts
                 _rb.AddTorque(transform.right * turnSpeed);
             else if (Input.GetKey(KeyCode.LeftControl))
                 _rb.AddTorque(transform.right * -turnSpeed);
+
+            if (Input.GetKey(KeyCode.R))
+                _rb.AddTorque(transform.forward * turnSpeed);
+            else if (Input.GetKey(KeyCode.T))
+                _rb.AddTorque(transform.forward * -turnSpeed);
             
             // slowly stabilize rotation
             var rotation = _rb.rotation;
