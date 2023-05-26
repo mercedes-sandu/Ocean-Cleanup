@@ -96,6 +96,14 @@ namespace Code.Scripts
         }
 
         /// <summary>
+        /// Hides the canvas.
+        /// </summary>
+        private void Start()
+        {
+            _canvas.enabled = false;
+        }
+
+        /// <summary>
         /// Opens/closes the upgrade menu and updates fields accordingly.
         /// </summary>
         private void Update()
