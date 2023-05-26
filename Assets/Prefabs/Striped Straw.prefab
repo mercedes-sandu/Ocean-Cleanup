@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tier: 1
-  plasticPoints: 0
+  plasticPoints: 15
 --- !u!1 &8058651364862668551
 GameObject:
   m_ObjectHideFlags: 0

@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tier: 2
-  plasticPoints: 0
+  plasticPoints: 15
 --- !u!65 &4963125415012096680
 BoxCollider:
   m_ObjectHideFlags: 0
