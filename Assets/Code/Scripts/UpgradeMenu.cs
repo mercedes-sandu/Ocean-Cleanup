@@ -136,6 +136,8 @@ namespace Code.Scripts
         private void OpenUpgradeMenu()
         {
             _canvas.enabled = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             Time.timeScale = 0;
             _isMenuOpen = true;
             plasticPointsText.text = $"x {Player.Instance.GetPlasticPoints()}";
@@ -170,6 +172,8 @@ namespace Code.Scripts
         public void CloseUpgradeMenu()
         {
             _canvas.enabled = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             _isMenuOpen = false;
             Time.timeScale = 1;
         }

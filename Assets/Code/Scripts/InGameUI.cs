@@ -75,6 +75,7 @@ namespace Code.Scripts
             _pauseButtonImage = pauseButton.GetComponent<Image>();
             _pauseButton = pauseButton.GetComponent<Button>();
             pauseMenuCanvas.enabled = false;
+            nextSceneCanvas.enabled = false;
             
             GameEvent.OnPlasticCollect += PlasticCollected;
             GameEvent.OnLevelComplete += LevelComplete;
@@ -125,6 +126,8 @@ namespace Code.Scripts
         /// </summary>
         public void PauseButton()
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             _pauseButtonImage.enabled = false;
             _pauseButton.interactable = false;
             pauseMenuCanvas.enabled = true;
@@ -137,6 +140,8 @@ namespace Code.Scripts
         /// </summary>
         public void ResumeButton()
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             pauseMenuCanvas.enabled = false;
             _pauseButtonImage.enabled = true;
             _pauseButton.interactable = true;
