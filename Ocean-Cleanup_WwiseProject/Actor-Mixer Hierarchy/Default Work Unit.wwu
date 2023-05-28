@@ -721,6 +721,48 @@
 											</RTPC>
 										</Local>
 									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{93CE88B4-7C8D-4E0D-BE4B-566039CDACB5}" ShortID="519729545">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SubmarineCurrentSpeed" ID="{992DBEB1-7B21-4A05-AC02-72DC1120C80A}" WorkUnitID="{3E69FEBF-C033-47C1-B83E-800008F0D24A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{F9D2F279-8359-490C-9FC0-C872DD6D39EC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-15</XPos>
+																		<YPos>0.09001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>15.0119760479042</XPos>
+																		<YPos>0.0182521054624619</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>-1.89354</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
@@ -730,6 +772,11 @@
 						<RandomSequenceContainer Name="Water_Jug" ID="{4E06A1D9-2A9B-4082-8E7F-65D5B24B825D}" ShortID="52681708">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

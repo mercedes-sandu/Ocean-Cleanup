@@ -13,7 +13,7 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{DB62D07C-9F43-4F9D-83D8-3B9632C97D3D}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C5E59982-A72D-3FCA-CD52-94034BA6D021}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -261,7 +261,7 @@
 				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{9811273D-F852-4E93-1684-0B0DFB083AD4}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{224A5763-BC0E-DD75-F1AF-2D829C09C405}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -284,5 +284,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D1897359-94D3-3C3A-FCC3-C602B0BF7FE0}</FileHash>
+	<FileHash>{A72586B9-EC15-7401-26B9-907B8321D24B}</FileHash>
 </SoundBanksInfo>
