@@ -636,11 +636,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Submarine Idle Loop" ID="{E5F677BA-29F9-4556-A0E7-208C11A92028}">
+								<AudioFileSource Name="Submarine Idle Loop V3" ID="{724F51AB-A994-4338-93FD-4153DF48917C}">
 									<Language>SFX</Language>
-									<AudioFile>Submarine Idle Loop.wav</AudioFile>
+									<AudioFile>Submarine Idle Loop V3.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="108104921"/>
+										<MediaID ID="195598791"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -665,12 +665,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>-15</XPos>
-																		<YPos>608</YPos>
+																		<YPos>1189</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>-5.90551</XPos>
-																		<YPos>607</YPos>
+																		<YPos>1100</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -724,7 +724,7 @@
 								</ObjectList>
 							</ObjectLists>
 							<ActiveSourceList>
-								<ActiveSource Name="Submarine Idle Loop" ID="{E5F677BA-29F9-4556-A0E7-208C11A92028}" Platform="Linked"/>
+								<ActiveSource Name="Submarine Idle Loop V3" ID="{724F51AB-A994-4338-93FD-4153DF48917C}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Water_Jug" ID="{4E06A1D9-2A9B-4082-8E7F-65D5B24B825D}" ShortID="52681708">

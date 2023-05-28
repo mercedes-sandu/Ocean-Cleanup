@@ -13,7 +13,7 @@
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{D6183EBC-535E-F23F-1C8A-13B9FFD5048A}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{DB62D07C-9F43-4F9D-83D8-3B9632C97D3D}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -37,10 +37,6 @@
 					<ShortName>Coffee Stirrer - stem 5.24.23-001.wav</ShortName>
 					<CachePath>SFX/Coffee Stirrer - stem 5.24.23-001_10C4C929.wem</CachePath>
 				</File>
-				<File Id="108104921" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Submarine Idle Loop.wav</ShortName>
-					<CachePath>SFX/Submarine Idle Loop_D79FB2B7.wem</CachePath>
-				</File>
 				<File Id="125958612" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Styrofoam Cup - stem 5.24.23-003.wav</ShortName>
 					<CachePath>SFX/Styrofoam Cup - stem 5.24.23-003_10C4C929.wem</CachePath>
@@ -52,6 +48,10 @@
 				<File Id="165952641" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water Jug - stem 5.24.23-003.wav</ShortName>
 					<CachePath>SFX/Water Jug - stem 5.24.23-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="195598791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Submarine Idle Loop V3.wav</ShortName>
+					<CachePath>SFX/Submarine Idle Loop V3_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="219883899" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Lids - stem 5.24.23-002.wav</ShortName>
@@ -230,7 +230,7 @@
 				</Event>
 				<Event Id="2401289386" Name="Play_SubIdle" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="108104921"/>
+						<MediaRef Id="195598791"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2479836968" Name="Play_Water_Jug" DurationType="OneShot" DurationMin="0.48108333" DurationMax="0.742">
@@ -284,5 +284,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{072F6BFF-27E3-2B5D-D2AF-7B32E42971FF}</FileHash>
+	<FileHash>{D1897359-94D3-3C3A-FCC3-C602B0BF7FE0}</FileHash>
 </SoundBanksInfo>
