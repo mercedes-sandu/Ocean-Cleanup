@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D0827779-558C-44DD-8CF1-E4D804C49117}" SchemaVersion="110">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{D0827779-558C-44DD-8CF1-E4D804C49117}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D0827779-558C-44DD-8CF1-E4D804C49117}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{D3E9DF68-0D1C-47FA-B9F0-F07768038969}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SubmarineCurrentSpeed" ID="{992DBEB1-7B21-4A05-AC02-72DC1120C80A}"/>
+							<Value>-0.0359281437125762</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

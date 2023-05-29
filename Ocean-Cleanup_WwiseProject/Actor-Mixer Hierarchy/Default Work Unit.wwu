@@ -665,12 +665,12 @@
 																<PointList>
 																	<Point>
 																		<XPos>-15</XPos>
-																		<YPos>1189</YPos>
+																		<YPos>800</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>-5.90551</XPos>
-																		<YPos>1100</YPos>
+																		<YPos>800</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
@@ -685,32 +685,37 @@
 																	</Point>
 																	<Point>
 																		<XPos>5.516</XPos>
-																		<YPos>872</YPos>
+																		<YPos>450</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>9.717</XPos>
-																		<YPos>957</YPos>
+																		<XPos>9.77292</XPos>
+																		<YPos>450</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>11.70547</XPos>
-																		<YPos>957</YPos>
+																		<XPos>10.315</XPos>
+																		<YPos>900</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>13.307</XPos>
+																		<XPos>14.731</XPos>
+																		<YPos>900</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>15.302</XPos>
 																		<YPos>1200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>15.89722</XPos>
-																		<YPos>2500</YPos>
+																		<YPos>1200</YPos>
 																		<Flags>0</Flags>
 																	</Point>
 																	<Point>
 																		<XPos>20</XPos>
-																		<YPos>2500</YPos>
+																		<YPos>1200</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -752,7 +757,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>20</XPos>
-																		<YPos>-1.89354</YPos>
+																		<YPos>-2.3</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -1122,7 +1127,40 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Ambiences" ID="{44D16C72-F630-4072-B877-66367E674620}" ShortID="754248937"/>
+				<Folder Name="Ambiences" ID="{44D16C72-F630-4072-B877-66367E674620}" ShortID="754248937">
+					<ChildrenList>
+						<Sound Name="Ambience Layer 2 Loop" ID="{8391A2D9-6AF9-4B33-AEBA-FD355CC2E20F}" ShortID="450671518">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambience Layer 2 Loop" ID="{68B9F1EF-6ACE-4BE6-B9A4-09DD5FC500C9}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience Layer 2 Loop.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1066412771"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambience Layer 2 Loop" ID="{68B9F1EF-6ACE-4BE6-B9A4-09DD5FC500C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

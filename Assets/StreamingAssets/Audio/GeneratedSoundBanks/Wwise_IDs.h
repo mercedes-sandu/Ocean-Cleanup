@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENCE_LAYER_2_LOOP = 558678004U;
         static const AkUniqueID PLAY_COFFEE_STIRRER = 1660235816U;
         static const AkUniqueID PLAY_COLORED_PLASTIC_CUPS = 2453105211U;
         static const AkUniqueID PLAY_LIDS = 3579342912U;

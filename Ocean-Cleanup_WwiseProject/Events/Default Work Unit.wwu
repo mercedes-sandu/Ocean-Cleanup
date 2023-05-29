@@ -145,6 +145,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Ambience_Layer_2_Loop" ID="{4DCBC264-75B0-4EC0-A95C-F42141AEBE2B}">
+							<ChildrenList>
+								<Action Name="" ID="{10E6A763-9930-4280-BD4A-2DDF95E59627}" ShortID="28891268">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience Layer 2 Loop" ID="{8391A2D9-6AF9-4B33-AEBA-FD355CC2E20F}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

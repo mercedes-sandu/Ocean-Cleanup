@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	558678004	Play_Ambience_Layer_2_Loop			\Default Work Unit\Ambience\Play_Ambience_Layer_2_Loop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1066412771	Ambience Layer 2 Loop	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Mac\SFX\Ambience Layer 2 Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Layer 2 Loop		5280096
+

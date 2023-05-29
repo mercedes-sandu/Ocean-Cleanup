@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 547e8bf134983a42b57e23017637af1a
     GuidInternal: 
-    m_lastTime: -8585164864403776669
+    m_lastTime: -8585162660393001471
     List:
     - name: Ambience
       guid: 93e1e4e9648b08419c1a9d0236d08ae8
@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585164864423303586
+    m_lastTime: -8585162678606616077
     List:
     - name: Ambience
       guid: ae3aadd5de918347b14a9c3cf18817bd
@@ -155,6 +155,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 764775fc299c1b409cb7569fc4436a73
       Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambience_Layer_2_Loop
+      guid: 64c2cb4db075c04ea95cf42141aebe2b
+      id: 558678004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: ae3aadd5de918347b14a9c3cf18817bd
+      - ElementName: Play_Ambience_Layer_2_Loop
+        ObjectType: 3
+        guid: 64c2cb4db075c04ea95cf42141aebe2b
+      Path: Events\Default Work Unit\Ambience\Play_Ambience_Layer_2_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -486,7 +506,7 @@ MonoBehaviour:
     m_lastTime: -8585164864403656626
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000c0000000d00000011000000
+  ExpandedWaapiItemIds: 050000000600000007000000080000000a0000000c0000000d0000000e0000001100000018000000190000001d000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

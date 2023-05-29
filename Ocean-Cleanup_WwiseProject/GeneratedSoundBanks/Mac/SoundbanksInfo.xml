@@ -9,11 +9,24 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{85C8678B-D164-C5AC-B90A-448EF2968EFA}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{D522CE9B-5756-628F-96E2-E0E8E48B4A58}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
+			<Media>
+				<File Id="1066412771" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Layer 2 Loop.wav</ShortName>
+					<CachePath>SFX/Ambience Layer 2 Loop_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="558678004" Name="Play_Ambience_Layer_2_Loop" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1066412771"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{C5E59982-A72D-3FCA-CD52-94034BA6D021}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{43CD615D-4764-7118-C9E5-23A6EFF03846}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -261,7 +274,7 @@
 				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{224A5763-BC0E-DD75-F1AF-2D829C09C405}">
+		<SoundBank Id="3991942870" Type="User" Language="SFX" Hash="{D0A72E4F-F6E2-62D3-9A3D-86FD59AE36AE}">
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<Media>
@@ -284,5 +297,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1A0C4A23-F862-3C5C-4471-58F86014F54F}</FileHash>
+	<FileHash>{F0035563-8303-BC80-758D-AC67918FF9CB}</FileHash>
 </SoundBanksInfo>
