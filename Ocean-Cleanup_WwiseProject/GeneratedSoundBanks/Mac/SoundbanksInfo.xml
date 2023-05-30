@@ -9,24 +9,36 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{D522CE9B-5756-628F-96E2-E0E8E48B4A58}">
+		<SoundBank Id="85412153" Type="User" Language="SFX" Hash="{620C1871-F2F0-04E8-198D-53550A5E1EBE}">
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<Media>
-				<File Id="1066412771" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ambience Layer 2 Loop.wav</ShortName>
-					<CachePath>SFX/Ambience Layer 2 Loop_D79FB2B7.wem</CachePath>
+				<File Id="81594147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ambience Layer 2 loop redo-003.wav</ShortName>
+					<CachePath>SFX/Ambience Layer 2 loop redo-003_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="554881083" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Idle Loop Layer 2v2.wav</ShortName>
+					<CachePath>SFX/Idle Loop Layer 2v2_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="558678004" Name="Play_Ambience_Layer_2_Loop" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="1066412771"/>
+						<MediaRef Id="81594147"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="161565097" Name="Play_Idle_Loop_Layer_3" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="554881083"/>
 					</MediaRefs>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{43CD615D-4764-7118-C9E5-23A6EFF03846}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{54EFAC60-BE8E-D97D-4B53-9D105B49835A}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -42,9 +54,25 @@
 					<ShortName>Plastic Bag - stem 5.24.23-002.wav</ShortName>
 					<CachePath>SFX/Plastic Bag - stem 5.24.23-002_10C4C929.wem</CachePath>
 				</File>
+				<File Id="71852333" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-002.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="83232048" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-003.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-003_10C4C929.wem</CachePath>
+				</File>
 				<File Id="84526852" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Water Bottle - stem 5.24.23-001.wav</ShortName>
 					<CachePath>SFX/Water Bottle - stem 5.24.23-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="85643026" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-005.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="95995204" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-001.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-001_10C4C929.wem</CachePath>
 				</File>
 				<File Id="104146397" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Coffee Stirrer - stem 5.24.23-001.wav</ShortName>
@@ -134,6 +162,10 @@
 					<ShortName>Lids - stem 5.24.23-001.wav</ShortName>
 					<CachePath>SFX/Lids - stem 5.24.23-001_10C4C929.wem</CachePath>
 				</File>
+				<File Id="841888416" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-004.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-004_10C4C929.wem</CachePath>
+				</File>
 				<File Id="856799613" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Styrofoam Cup - stem 5.24.23-001.wav</ShortName>
 					<CachePath>SFX/Styrofoam Cup - stem 5.24.23-001_10C4C929.wem</CachePath>
@@ -166,6 +198,10 @@
 					<ShortName>Party Balloons - stem 5.24.23-003.wav</ShortName>
 					<CachePath>SFX/Party Balloons - stem 5.24.23-003_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1053677653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Bubble SFX Layer-006.wav</ShortName>
+					<CachePath>SFX/Bubble SFX Layer-006_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1054013645" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Straws - stem 5.24.23-002.wav</ShortName>
 					<CachePath>SFX/Straws - stem 5.24.23-002_10C4C929.wem</CachePath>
@@ -176,18 +212,40 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1660235816" Name="Play_Coffee_Stirrer" DurationType="OneShot" DurationMin="0.36827084" DurationMax="0.64925">
+				<Event Id="881522255" Name="Play_Bubble_Effects" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
+						<MediaRef Id="841888416"/>
+						<MediaRef Id="1053677653"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1660235816" Name="Play_Coffee_Stirrer" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
+					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="104146397"/>
 						<MediaRef Id="300350400"/>
 						<MediaRef Id="416074759"/>
+						<MediaRef Id="841888416"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2453105211" Name="Play_Colored_Plastic_Cups" DurationType="OneShot" DurationMin="0.29070833" DurationMax="0.5065521">
+				<Event Id="2453105211" Name="Play_Colored_Plastic_Cups" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="299856050"/>
 						<MediaRef Id="422441870"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="939921682"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3579342912" Name="Play_Lids" DurationType="OneShot" DurationMin="0.32946876" DurationMax="0.5930521">
@@ -199,46 +257,82 @@
 				</Event>
 				<Event Id="1707468425" Name="Play_Party_Balloons" DurationType="OneShot" DurationMin="0.48890626" DurationMax="0.8502396">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="457261870"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="1053540652"/>
+						<MediaRef Id="1053677653"/>
 						<MediaRef Id="1070344753"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1317114277" Name="Play_Plastic_Straws" DurationType="OneShot" DurationMin="0.47360417" DurationMax="0.6085521">
+				<Event Id="1317114277" Name="Play_Plastic_Straws" DurationType="OneShot" DurationMin="0.47360417" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="157014695"/>
 						<MediaRef Id="341664483"/>
 						<MediaRef Id="584356674"/>
+						<MediaRef Id="841888416"/>
+						<MediaRef Id="1053677653"/>
 						<MediaRef Id="1054013645"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1822877436" Name="Play_Plastic_Utensils" DurationType="OneShot" DurationMin="0.29566666" DurationMax="0.47995833">
+				<Event Id="1822877436" Name="Play_Plastic_Utensils" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
 					<MediaRefs>
 						<MediaRef Id="23985577"/>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="638487778"/>
 						<MediaRef Id="764575432"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="931359013"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4050017945" Name="Play_Regular_Bottle" DurationType="OneShot" DurationMin="0.5045625" DurationMax="0.8608438">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
 						<MediaRef Id="84526852"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="325196196"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="909737294"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3591410834" Name="Play_Small_Bottle" DurationType="OneShot" DurationMin="0.37291667" DurationMax="0.55158335">
+				<Event Id="3591410834" Name="Play_Small_Bottle" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="511691974"/>
 						<MediaRef Id="788633787"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="936210145"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3320104147" Name="Play_Styrofoam_Cup" DurationType="OneShot" DurationMin="0.3398854" DurationMax="0.50965625">
+				<Event Id="3320104147" Name="Play_Styrofoam_Cup" DurationType="OneShot" DurationMin="0.38339582" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="125958612"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="856799613"/>
 						<MediaRef Id="1033935345"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2401289386" Name="Play_SubIdle" DurationType="Infinite">
@@ -246,11 +340,17 @@
 						<MediaRef Id="195598791"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2479836968" Name="Play_Water_Jug" DurationType="OneShot" DurationMin="0.48108333" DurationMax="0.742">
+				<Event Id="2479836968" Name="Play_Water_Jug" DurationType="OneShot" DurationMin="0.48108333" DurationMax="0.7938333">
 					<MediaRefs>
+						<MediaRef Id="71852333"/>
+						<MediaRef Id="83232048"/>
+						<MediaRef Id="85643026"/>
+						<MediaRef Id="95995204"/>
 						<MediaRef Id="165952641"/>
 						<MediaRef Id="719314068"/>
+						<MediaRef Id="841888416"/>
 						<MediaRef Id="891704690"/>
+						<MediaRef Id="1053677653"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -297,5 +397,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F0035563-8303-BC80-758D-AC67918FF9CB}</FileHash>
+	<FileHash>{2214829F-FC78-AD0E-4699-C72D0FD822DF}</FileHash>
 </SoundBanksInfo>

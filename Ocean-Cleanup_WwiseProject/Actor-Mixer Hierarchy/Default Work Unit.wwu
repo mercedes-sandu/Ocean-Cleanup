@@ -1125,6 +1125,158 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" ShortID="402942152">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bubble SFX Layer-001" ID="{8D7D8534-B417-4485-AF1C-F35DB0FFA5BF}" ShortID="213897325">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-001" ID="{6CC9BC43-53D8-4E3B-9C16-918F06C7824A}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="95995204"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-001" ID="{6CC9BC43-53D8-4E3B-9C16-918F06C7824A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubble SFX Layer-002" ID="{292B771C-1CD7-4985-9BFB-2D24F9F71A2C}" ShortID="404246949">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-002" ID="{4A8AAEAA-80D8-45DB-A34C-A1022826C298}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71852333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-002" ID="{4A8AAEAA-80D8-45DB-A34C-A1022826C298}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubble SFX Layer-003" ID="{0999CFAC-81E0-4D6B-BEA4-54DF21205555}" ShortID="472490165">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-003" ID="{747F003A-9E99-46EF-BD5F-4430CD0B78C5}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="83232048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-003" ID="{747F003A-9E99-46EF-BD5F-4430CD0B78C5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubble SFX Layer-004" ID="{4AC47722-EE83-446E-BF45-AB354ACD1452}" ShortID="234722296">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-004" ID="{E80D5F33-D90F-4465-8C85-A345A9AE12C0}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841888416"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-004" ID="{E80D5F33-D90F-4465-8C85-A345A9AE12C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubble SFX Layer-005" ID="{FE3D7B8D-3DDC-4DC0-B3F8-62E449E534A2}" ShortID="1009714986">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-005" ID="{0D32C760-9504-4382-820D-A801689021C0}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="85643026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-005" ID="{0D32C760-9504-4382-820D-A801689021C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Bubble SFX Layer-006" ID="{346560CE-4496-48D1-BD2A-6A4A4E0261B7}" ShortID="710725154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bubble SFX Layer-006" ID="{0746FC1C-0611-4E43-9F38-46E2525C429A}">
+											<Language>SFX</Language>
+											<AudioFile>Bubble SFX Layer-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1053677653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bubble SFX Layer-006" ID="{0746FC1C-0611-4E43-9F38-46E2525C429A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiences" ID="{44D16C72-F630-4072-B877-66367E674620}" ShortID="754248937">
@@ -1154,9 +1306,130 @@
 										<MediaID ID="1066412771"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Ambience Layer 2 loop redo" ID="{EBFFC767-4AE7-4957-9E38-CD24C630FE0A}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience Layer 2 loop redo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="447617551"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Ambience Layer 2 loop redo-003" ID="{466673B2-5F84-43AF-80F9-D0DFD41AD966}">
+									<Language>SFX</Language>
+									<AudioFile>Ambience Layer 2 loop redo-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81594147"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Ambience Layer 2 Loop" ID="{68B9F1EF-6ACE-4BE6-B9A4-09DD5FC500C9}" Platform="Linked"/>
+								<ActiveSource Name="Ambience Layer 2 loop redo-003" ID="{466673B2-5F84-43AF-80F9-D0DFD41AD966}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Idle Loop Layer 3" ID="{E54FC480-51D4-45D4-A7BF-311122CD4F1C}" ShortID="487740007">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{47081408-C2EE-4144-8A13-E4DEF1E119A0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Idle Loop Layer 2" ID="{FD036F9A-D326-44DC-B529-E7BBADB32F4D}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.64279"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Idle Loop Layer 2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="508769557"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Idle Loop Layer 3" ID="{B14BCABB-83CE-42D1-8441-542D829A9249}">
+									<Language>SFX</Language>
+									<AudioFile>Idle Loop Layer 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397387340"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Idle Loop Layer 2v2" ID="{90E0483D-3BF1-4060-AC8A-A8E2977FEBFB}">
+									<Language>SFX</Language>
+									<AudioFile>Idle Loop Layer 2v2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="554881083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{106A55C8-4D84-44EB-9170-3A44FB0CC8EB}" ShortID="376651724">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SubmarineCurrentSpeed" ID="{992DBEB1-7B21-4A05-AC02-72DC1120C80A}" WorkUnitID="{3E69FEBF-C033-47C1-B83E-800008F0D24A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{08C3887A-730F-494B-A42F-FA783BC25548}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-15</XPos>
+																		<YPos>-2</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-0.16168</XPos>
+																		<YPos>-2</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.08982</XPos>
+																		<YPos>-3.77525</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>9.98204</XPos>
+																		<YPos>-3.7028</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>15.01198</XPos>
+																		<YPos>-3.66827</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>20</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="Idle Loop Layer 2v2" ID="{90E0483D-3BF1-4060-AC8A-A8E2977FEBFB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

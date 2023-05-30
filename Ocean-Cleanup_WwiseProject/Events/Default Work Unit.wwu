@@ -29,6 +29,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{B2266DEF-A151-4B29-A9FD-AB60B85540B3}" ShortID="769195053">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Water_Jug" ID="{E4B4B51E-2BA8-4ED8-9670-58907E81D0F2}">
@@ -37,6 +44,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Water_Jug" ID="{4E06A1D9-2A9B-4082-8E7F-65D5B24B825D}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4A1E98E7-4E61-4A16-BF7B-D90C2353A68C}" ShortID="501755118">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -51,6 +65,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{9ADF391C-41DB-4FA9-893C-75CFBFA723EC}" ShortID="942240819">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Small_Bottle" ID="{3F0F8230-190B-4AB1-80CE-8BAFF3A13E65}">
@@ -59,6 +80,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Small_Bottle" ID="{3A801FD9-089B-4E56-AE8D-E85EF93B3BB2}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{941432BE-5F9A-4940-8238-A8750F106931}" ShortID="766842169">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -73,6 +101,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{172EBCB5-B4DC-42C3-8690-4962CF0447E5}" ShortID="99392100">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Party_Balloons" ID="{ABA2B7A4-EA3E-4446-B3DF-C2197AAD6028}">
@@ -84,6 +119,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{16350DCA-624F-4296-878C-481B7AA27306}" ShortID="567221481">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Coffee_Stirrer" ID="{0FC1C602-D223-4A7D-80A2-64052C64DA3F}">
@@ -92,6 +134,13 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Coffee_Stirrer" ID="{DAA4D101-7BE2-43E9-9B19-59CA6AEB8DDD}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0B79A026-70D3-4F5E-B97D-F16A87765F73}" ShortID="134435193">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -117,6 +166,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{F5536B32-38BA-43C4-A693-577F98EB4BC2}" ShortID="781373839">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_Plastic_Straws" ID="{A5FC63C0-EA97-47AB-B7A1-B13D6950ACB6}">
@@ -125,6 +181,24 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Plastic_Straws" ID="{C5DFE90F-4596-4B3B-B24F-31BF68769E40}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A1B83B78-A4A8-4286-8063-C3C9B7215591}" ShortID="192753596">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Bubble_Effects" ID="{F9198E07-3D83-44EC-A85B-E89730D83D26}">
+							<ChildrenList>
+								<Action Name="" ID="{BC657B69-4E59-4A70-AE4F-F8B4E8AF60B6}" ShortID="754464048">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Bubble Effects" ID="{98455A55-E140-4223-A83F-3849879E5076}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -151,6 +225,17 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ambience Layer 2 Loop" ID="{8391A2D9-6AF9-4B33-AEBA-FD355CC2E20F}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Idle_Loop_Layer_3" ID="{092F3611-36F1-4A3A-A3BB-D376262EC74D}">
+							<ChildrenList>
+								<Action Name="" ID="{D707419F-56AC-42A1-B8AA-57CC6DE8DC7B}" ShortID="675617787">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Idle Loop Layer 3" ID="{E54FC480-51D4-45D4-A7BF-311122CD4F1C}" WorkUnitID="{43605362-6001-459F-9A2C-8C078E627F5D}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

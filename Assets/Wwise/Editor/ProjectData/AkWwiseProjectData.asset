@@ -122,7 +122,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 2be8aa280d8ab44abbbdb781c79757e3
     GuidInternal: 
-    m_lastTime: -8585162678606616077
+    m_lastTime: -8585162177191631934
     List:
     - name: Ambience
       guid: ae3aadd5de918347b14a9c3cf18817bd
@@ -178,6 +178,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Bubble_Effects
+      guid: 078e19f9833dec44a85be89730d83d26
+      id: 881522255
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 9f02e34f20320240bb1bc08c72528b26
+      - ElementName: Play_Bubble_Effects
+        ObjectType: 3
+        guid: 078e19f9833dec44a85be89730d83d26
+      Path: Events\Default Work Unit\SFX\Play_Bubble_Effects
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Coffee_Stirrer
       guid: 02c6c10f23d27d4a80a264052c64da3f
       id: 1660235816
@@ -215,6 +235,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9c8ca277c62ac64b8da6c776b6d721f6
       Path: Events\Default Work Unit\SFX\Play_Colored_Plastic_Cups
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Idle_Loop_Layer_3
+      guid: 11362f09f1363a4aa3bbd376262ec74d
+      id: 161565097
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2be8aa280d8ab44abbbdb781c79757e3
+      - ElementName: Ambience
+        ObjectType: 4
+        guid: ae3aadd5de918347b14a9c3cf18817bd
+      - ElementName: Play_Idle_Loop_Layer_3
+        ObjectType: 3
+        guid: 11362f09f1363a4aa3bbd376262ec74d
+      Path: Events\Default Work Unit\Ambience\Play_Idle_Loop_Layer_3
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

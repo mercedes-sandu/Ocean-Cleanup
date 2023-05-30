@@ -1,6 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	161565097	Play_Idle_Loop_Layer_3			\Default Work Unit\Ambience\Play_Idle_Loop_Layer_3	
 	558678004	Play_Ambience_Layer_2_Loop			\Default Work Unit\Ambience\Play_Ambience_Layer_2_Loop	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	459289031	SubmarineCurrentSpeed			\Default Work Unit\SubmarineCurrentSpeed	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	1066412771	Ambience Layer 2 Loop	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Windows\SFX\Ambience Layer 2 Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Layer 2 Loop		5280096
+	81594147	Ambience Layer 2 Loop	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Windows\SFX\Ambience Layer 2 loop redo-003_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience Layer 2 Loop		2122664
+	554881083	Idle Loop Layer 3	C:\Users\thelo\OneDrive\Documents\GitHub\Ocean-Cleanup\Ocean-Cleanup_WwiseProject\.cache\Windows\SFX\Idle Loop Layer 2v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Idle Loop Layer 3		237764
 
