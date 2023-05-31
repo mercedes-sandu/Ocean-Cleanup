@@ -1288,8 +1288,8 @@
 																		<SegmentShape>Log1</SegmentShape>
 																	</Point>
 																	<Point>
-																		<XPos>0.00549</XPos>
-																		<YPos>-6.98236</YPos>
+																		<XPos>0.03666</XPos>
+																		<YPos>-4.19023</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>
@@ -1314,7 +1314,7 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8.5</Value>
+										<Value>-7.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1328,6 +1328,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Party Balloons - stem 5_24_23-001" ID="{CA7AD40B-9D2D-448E-99C6-242367B00D99}" ShortID="574487420">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>0.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
@@ -1372,6 +1379,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Party Balloons - stem 5_24_23-003" ID="{487474A3-5386-468F-A0F1-8366CE24C95F}" ShortID="413146587">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-0.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{50A80715-9AB6-4D1F-B746-7792261018FF}"/>
@@ -1421,7 +1435,7 @@
 																	</Point>
 																	<Point>
 																		<XPos>0.00549</XPos>
-																		<YPos>-6.98236</YPos>
+																		<YPos>-4.5</YPos>
 																		<Flags>0</Flags>
 																		<SegmentShape>Exp1</SegmentShape>
 																	</Point>

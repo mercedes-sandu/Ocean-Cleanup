@@ -38,7 +38,7 @@
 				<GameParameter Id="459289031" Name="SubmarineCurrentSpeed"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{B3E314DA-A1A2-08C5-3039-F37CCA2FF4FB}">
+		<SoundBank Id="393239870" Type="User" Language="SFX" Hash="{3FB37698-1F74-313E-76A3-97C8EB08EE57}">
 			<ShortName>SFX</ShortName>
 			<Path>SFX.bnk</Path>
 			<Media>
@@ -397,5 +397,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{DF1EDDB3-30AD-2618-7C54-32D29CE7B5A2}</FileHash>
+	<FileHash>{CDE9D409-23E4-7B73-3AA5-D189EA0C07D1}</FileHash>
 </SoundBanksInfo>
