@@ -7,7 +7,7 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="SubmarineCurrentSpeed" ID="{992DBEB1-7B21-4A05-AC02-72DC1120C80A}"/>
-							<Value>-3.1440119760479</Value>
+							<Value>8.22525664554864</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>

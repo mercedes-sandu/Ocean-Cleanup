@@ -106,7 +106,7 @@ namespace Code.Scripts
         {
             ///_curSpeed = CurSpeedGaugeSettings.GetValue();
             AkSoundEngine.SetRTPCValue("SubmarineCurrentSpeed", _curSpeed);
-            ///Debug.Log(_curSpeed);
+            Debug.Log(_curSpeed);
         }
     }
 }
